@@ -12,10 +12,12 @@ The mod is built the way the game's own DLC is built: a Unity Addressables **con
 | `OKC_TransformerScreen/` | Procedural Blender build of the prop (FBX/GLB, dirt-mask UVs, verify script) |
 | `PWS2LevelLoader/` | MelonLoader mod (C#, net6.0). Phase 0 ships the reconnaissance dumper (F6/F7/F8). |
 | `PWS2LevelKit/` | Unity 6000.0.73f1 project with stub game types and the pack build tooling (Phase 1+) |
-| `docs/` | Nexus description, tooling scripts (`docs/tools/dump_types.ps1`), notes |
+| `docs/` | Handoff, spike log, Streetcar variant, stub-field export (shared game docs are in [`../docs/`](../docs/)) |
 | `dist/` | Zip layout for Nexus / GitHub Releases (build output, not committed) |
 
 ## Build the loader
+
+Commands in this file run from `OKCRing/`.
 
 Requires the .NET 8 SDK and the game with MelonLoader 0.7.x installed (the csproj references
 the generated `MelonLoader/Il2CppAssemblies`). The build copies the DLL into the game's `Mods/`.
@@ -64,7 +66,7 @@ SceneAdditionOverride = ""   # dev: "x,y,z[,yaw]" places a pack's scene addition
 `"Spike B Billboard|SCRIPT_CAREER_SPIKEB_TITLE"`). If the hub reloads 6 times during an automated run the loader
 dumps and quits instead of looping forever.
 
-Findings distilled from the dumps: [docs/phase0-findings.md](docs/phase0-findings.md).
+Findings distilled from the dumps: [../docs/phase0-findings.md](../docs/phase0-findings.md).
 
 ## A pack job on one of the game's own levels
 

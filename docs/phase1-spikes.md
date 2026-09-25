@@ -12,7 +12,7 @@ Plan reference: Phase 1 of the approved plan. Each spike has a pass criterion; r
   (Input System 1.19 comes with the template).
 - `Assets/Stubs/<AssemblyName>/` holds one asmdef per game assembly (`FuturLab`, `FuturLab.PW2`,
   `FuturLab.PW2.Core`, `FuturLab.PW2.GameContent`, `FuturLab.PW2.TexturePainter`, `FuturLab.PW2.WashGraphics`,
-  `FMODUnity`) with stub classes mirroring the serialized layout from `docs/phase0-findings.md`. All compile.
+  `FMODUnity`) with stub classes mirroring the serialized layout from `../docs/phase0-findings.md`. All compile.
 - `Assets/LevelKit/Editor/PackBuilder.cs` builds a pack: one Addressables group per `Assets/Packs/<name>`,
   profile `PWS2Pack`, LoadPath `{UnityEngine.AddressableAssets.Addressables.RuntimePath}/../../../Mods/PWS2LevelLoader/packs/<name>`,
   local binary catalog, unique bundle ids, LZ4, hash-suffixed bundle names, per-pack MonoScript / built-in bundle

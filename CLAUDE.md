@@ -1,6 +1,10 @@
-# CLAUDE.md
+# CLAUDE.md — OKCRing (custom level mod)
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+This file provides guidance to Claude Code (claude.ai/code) when working in `OKCRing/`. Repo-wide rules
+(game environment, MelonLoader/IL2CPP rules, tool gotchas) are in the root `../CLAUDE.md`.
+
+**All paths and commands below are relative to `OKCRing/`** (`cd OKCRing` first). Shared game docs live
+one level up in `../docs/`.
 
 ## Read first
 
@@ -8,14 +12,14 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 game folder, what the next actions are) and it lists the hard-won rules in full. Read it before
 touching anything. The other sources of truth:
 
-- `docs/phase0-findings.md` — how PWS2 v1.3.0 defines a level: `UniqueId` hashing, content-pack
+- `../docs/phase0-findings.md` — how PWS2 v1.3.0 defines a level: `UniqueId` hashing, content-pack
   registration, `JobPackManifest`/`GameJob`/`SceneWashableData`/`WashTarget` layout, control-map/UV2
   rules, localization keys. Verified in-game.
 - `docs/phase1-spikes.md` — spike log: pack-build rules, the hub-reload-loop root cause, the
   `GameplayBoot` requirement. Read the Spike C section before authoring a scene.
 - The approved plan: `C:\Users\jogal\.claude\plans\powerwash-simulator-2-level-reflective-treehouse.md`.
 
-## What this repo is
+## What this mod is
 
 A MelonLoader mod that adds a custom Free Play/career level to PowerWash Simulator 2 (Steam appid
 2968420, v1.3.1, Unity 6000.0.73f1, IL2CPP). It is built the way the game's own DLC is built:
@@ -70,11 +74,7 @@ Regenerate the prop, then verify (`VERIFY: PASS` is the gate):
 field names against `docs/tools/stub-fields.json`. After a game update, re-export that file in-process with
 `& docs/tools/export_stub_fields.ps1 -GameVersion <ver>` and commit it.
 
-Dump IL2CPP type layouts (run **in-process** from the PowerShell tool, not `pwsh -File`):
-
-```
-& docs/tools/dump_types.ps1 -Types GameJob,WashTarget -MethodRegex '...'
-```
+Dump IL2CPP type layouts with the shared `../docs/tools/dump_types.ps1` (see root `CLAUDE.md`).
 
 ## Testing = running the game
 
@@ -82,9 +82,7 @@ There is no unit-test suite. A change is verified by launching the game with the
 preferences set, letting it dump, and reading the dumps and `MelonLoader/Latest.log`. Preferences
 live in `<game>/UserData/MelonPreferences.cfg` under `[PWS2LevelLoader]`
 (`AutoDump`, `AutoRunCheat`, `AutoRunCheat2`, `AutoQuitAfterDumps`, `AutoSpike`, `RegisterPacks`,
-`EnableDebugKeys`); the README documents each one. Launch via
-`Start-Process "steam://rungameid/2968420"` and `Wait-Process` — launching the exe directly drops the
-command-line switches. Dumps land in `<game>/UserData/PWS2LevelLoader/dumps/`; interactive keys are
+`EnableDebugKeys`); the README documents each one. Launch the game as the root `CLAUDE.md` describes. Dumps land in `<game>/UserData/PWS2LevelLoader/dumps/`; interactive keys are
 F5–F10 (see README).
 
 Always restore `AutoDump=false`, `AutoRunCheat*=""`, `AutoSpike=""`, `AutoQuitAfterDumps=0` before
@@ -118,23 +116,17 @@ handing the game back for normal play.
 
 ## Rules that cost a session each
 
-- **Never Harmony-patch an IL2CPP method that is async or takes `CancellationToken`/non-blittable
-  structs** — the game's own call never completes and boot stalls silently. Patch parameterless or
-  reference-only methods, or poll. To see why a load failed, read `LoadingStateBase.Task.Exception`
-  (`Debug/StateTracer`) instead of patching.
+The game-wide ones (Harmony on async IL2CPP methods, `WaitForCompletion()`, `hide_console`,
+`FuturLogger.Error`, interop interface casts, tool gotchas) are in the root `CLAUDE.md`. Specific to this mod:
+
+- To see why a level load failed, read `LoadingStateBase.Task.Exception` (`Debug/StateTracer`) instead of patching.
 - **Do not patch the `Campaign.JobPackReferences` getter** — on 1.3.1 it crashes every hub load inside `coreclr.dll`.
   After a game update, a boot crash in `coreclr.dll` means: bisect the Harmony patches first. The whole update checklist
   (proxies, stub fields, `GameplayBoot` GUIDs, `PackBuilder.GameVersion`, rebuild every pack) is HANDOFF "Game updates".
-- **Never call `WaitForCompletion()` on Addressables during boot** — kills the process.
-- **Keep `hide_console = true` in `<game>/UserData/Loader.cfg`.** ML's console installs a `CloseHandle` hook that
-  fail-fasts the process on every quit (`0xc0000602` in `VERSION.dll`); see HANDOFF "MelonLoader config".
-- **Do not hook `FuturLogger.Error`** — thousands of boot-time calls, game dies before the hub.
 - Per-pack bundle naming (`MonoScriptBundleNaming`/`BuiltInBundleNaming = Custom`,
   `pws2pack_<name>`) plus `BundleNamingStyle.AppendHash`; Addressables only *logs* duplicate bundle
   file names and leaves `result.Error` empty, so `PackBuilder` fails the build itself.
-- `CampaignJobPackReference` has no IL2CPP constructor — allocate via
-  `PackRegistry.NewIl2CppObject`. Interop interface proxies do not inherit members, so cast
-  (`IEnumerator<T>` → `Il2CppSystem.Collections.IEnumerator`, `IList<T>` → `ICollection<T>`).
+- `CampaignJobPackReference` has no IL2CPP constructor — allocate via `PackRegistry.NewIl2CppObject`.
 - Do not add scripts under `PWS2LevelKit/Assets` while a batch build is running (domain reload).
 - `OkcPack.CreateAndBuildFromCommandLine` must run **without** `-nographics` (reflection-probe bake and
   thumbnail renders need the GPU). The game build has no built-in skybox shaders, so a level's sky must be
@@ -142,6 +134,3 @@ handing the game back for normal play.
 - To see a pack level dirty when the save already has it clean, set `AutoResetPackTargets=true` for the run
   (session-only `WashManager.ResetTarget`), and keep `AutoDumpDelaySeconds` near 7: the game opens the Job
   Summary a few seconds after a reset.
-- The Bash tool runs through `eval`: single quotes inside heredocs break, commands over ~8 KB are
-  truncated — use the Write tool for such files. `Remove-Item` under Program Files is blocked by the
-  tool guard; use bash `rm -rf`.
