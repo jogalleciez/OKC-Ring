@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 454088827bde54545936a088e9c536d2, type: 3}
+  m_Name: WTD_OKC_Panel_03_Streetcar
+  m_EditorClassIdentifier: 
+  <SuggestedControlMapResolution>k__BackingField: 1024
+  <ControlMapAsset>k__BackingField:
+    m_AssetGUID: c50b3eba5f852c848a3dc032985e7598
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0
+  <ControlMapAreaInUse>k__BackingField:
+    x: 0
+    y: 0
+    width: 1024
+    height: 1024
+  <ControlMapTotalRect>k__BackingField:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 0
+    height: 0
+  <ControlMapTrimmedRect>k__BackingField:
+    x: 0
+    y: 0
+    width: 1024
+    height: 1024
+  <TexturePalette>k__BackingField: {fileID: 11400000, guid: 7d0545cf219dd5043b1e3aead6c1ce61, type: 2}
+  <OverrideSurfaceCleanThreshold>k__BackingField: 1
+  <SurfaceCleanThreshold>k__BackingField: 0.1
+  <TemplatePaintLayerMaterial>k__BackingField: {fileID: 0}
+  <OpacityCurveConfig>k__BackingField: {fileID: 0}
+  <ConfirmedByDesigner>k__BackingField: 1
+  <ApprovedByDesign>k__BackingField: 0

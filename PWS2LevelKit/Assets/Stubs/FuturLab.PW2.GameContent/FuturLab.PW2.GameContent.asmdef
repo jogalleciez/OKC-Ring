@@ -1,0 +1,24 @@
+{
+  "name": "FuturLab.PW2.GameContent",
+  "rootNamespace": "",
+  "references": [
+    "FuturLab",
+    "FuturLab.PW2.Core",
+    "FuturLab.PW2.TexturePainter",
+    "FuturLab.PW2.WashGraphics",
+    "FMODUnity",
+    "Unity.Addressables",
+    "Unity.ResourceManager",
+    "Unity.Localization",
+    "Unity.InputSystem"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

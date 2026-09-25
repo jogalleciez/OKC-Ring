@@ -1,0 +1,208 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 707ad5c55906c2f4eb92b7abae1d7a1c, type: 3}
+  m_Name: Job_SpikeC
+  m_EditorClassIdentifier: 
+  m_unlockedByDefault: 1
+  m_unlockRules: []
+  m_unlockRuleTargetIds: 
+  m_uniqueId: -1906918709
+  m_uniqueName: SPIKEC
+  m_availability:
+    Platform: -1
+    ReleaseType: -1
+    EditorModifier: 0
+  m_localizedName:
+    m_TableReference:
+      m_TableCollectionName: PWS2_Main
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: SCRIPT_CAREER_SPIKEC_TITLE
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_localizedDescription:
+    m_TableReference:
+      m_TableCollectionName: PWS2_Main
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: SCRIPT_CAREER_SPIKEC_DESCRIPTION
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  <CampaignID>k__BackingField: -782300793
+  m_saveSize: 2
+  m_timelapseQualityOverride:
+    Override: 0
+    Value:
+      <MaxPixelDiff>k__BackingField: 5
+      <MinPixelDiffCount>k__BackingField: 4
+  m_customer: {fileID: 11400000, guid: 4e1f058e03352694fbf9807d455586dd, type: 2}
+  m_timelapseStaticThumbnail:
+    m_AssetGUID: 8bfbf0fb783cb6940a4ab3022cbce456
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0
+  <IsTestJob>k__BackingField: 0
+  <Location>k__BackingField:
+    <SceneWashableData>k__BackingField: {fileID: 11400000, guid: 59e262f41b741dd48b439dcb31379022, type: 2}
+    <SceneName>k__BackingField: GAM_SPIKEC_Panel
+    <LocalizedAddress>k__BackingField:
+      m_TableReference:
+        m_TableCollectionName: PWS2_Main
+      m_TableEntryReference:
+        m_KeyId: 0
+        m_Key: SCRIPT_CAREER_SPIKEC_ADDRESS
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    <SceneAssetReference>k__BackingField:
+      m_AssetGUID: 93c66d24fd6681c44aa2fcdf2c8ee628
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    <SceneShaderCollectionAsset>k__BackingField:
+      m_AssetGUID: 9217f14022624204f9ea2c09bc96483e
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    <LocalizedLoadingInfo>k__BackingField:
+      m_TableReference:
+        m_TableCollectionName: PWS2_Main
+      m_TableEntryReference:
+        m_KeyId: 0
+        m_Key: SCRIPT_CAREER_SPIKEC_DESCRIPTION
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    <LocalizedInputActions>k__BackingField: []
+    <LoadingScreenImageAsset>k__BackingField:
+      m_AssetGUID: dc833b6ef57d43e43966db211dd17421
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    <PreviewImageAsset>k__BackingField:
+      m_AssetGUID: 8bfbf0fb783cb6940a4ab3022cbce456
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    <ChatImageAsset>k__BackingField:
+      m_AssetGUID: 8bfbf0fb783cb6940a4ab3022cbce456
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    <SelectedThumbnailImageAsset>k__BackingField:
+      m_AssetGUID: 53673f1550c0aca4284677e4b9740f96
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    <DeselectedThumbnailImageAsset>k__BackingField:
+      m_AssetGUID: 044f6bbd34e34ae468c28348a16df456
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    <AmbienceSoundEvent>k__BackingField:
+      Guid:
+        Data1: -1346477421
+        Data2: 1311386061
+        Data3: 870660996
+        Data4: 371991804
+    <MaxMapHeight>k__BackingField: 6
+    <HasWind>k__BackingField: 0
+    <HasReverb>k__BackingField: 0
+    <OverrideSoapGlobalConfig>k__BackingField: 0
+    <RuntimeSoapGlobalConfig>k__BackingField: {fileID: 0}
+    <CustomRenderProfile>k__BackingField: 0
+    <RuntimeRenderProfile>k__BackingField: {fileID: 0}
+    <RuntimeWetnessRenderProfile>k__BackingField: {fileID: 0}
+    <RuntimeSoapRenderProfile>k__BackingField: {fileID: 0}
+  m_stages:
+  - m_uniqueName: 
+    m_hideNameWhenLocked: 0
+    m_localizationKey: STAGE_SPIKEC_
+    m_tasks:
+    - m_isDefault: 1
+      m_washableObjectUniqueId: 154973369
+      m_parentObjectUniqueId: 0
+      m_previousWashableObjectUniqueName: 
+      m_bonusPayment:
+        <Value>k__BackingField: 0
+      m_washTasks:
+        m_washTasks: []
+      m_washTaskList:
+      - m_washableComponentUniqueId: 885198933
+        m_payment:
+          <Value>k__BackingField: 500
+        m_localizationKey: WASHTASK_GAM_SPIKEC_PANEL_WASH_PANEL
+        m_componentLocalizationKey: WASHTASK_GAM_SPIKEC_PANEL_WASH_PANEL
+        m_componentGroupLocalizationKey: WASHTASK_GAM_SPIKEC_PANEL_WASH_PANEL_GROUP
+        m_superTaskLocalizationKey: 
+        m_parentWashableObjectUniqueId: 154973369
+        m_superTaskName: 
+        m_superTaskWashTargetIds: 
+      m_washTaskCount: 1
+      m_TaskUniqueName: SPIKEC_TASK
+      m_localizationKey: TASK_SPIKEC_MAIN
+    m_delayLoadingWashMaps: 0
+  m_bonusTasks: []
+  m_completionPayment:
+    <Value>k__BackingField: 1000
+  m_completionPaymentSecondary:
+    <Value>k__BackingField: 100
+  m_useLoadout: 0
+  m_loadout:
+    m_entries: []
+  <CustomizationDisabled>k__BackingField: 0
+  m_levelDevelopmentStage: 2
+  m_allMessageSequences: []
+  <BriefMessageSequence>k__BackingField: {fileID: 0}
+  <CompletionMessageSequence>k__BackingField: {fileID: 0}
+  m_stringTableName: PWS2_Main
+  m_localizationId: 
+  m_localizedFreePlayInteraction:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_storyNameInteraction:
+    m_TableReference:
+      m_TableCollectionName: PWS2_Main
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: HOMEBASE_SPIKEC_STORY
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_freePlayNameInteraction:
+    m_TableReference:
+      m_TableCollectionName: PWS2_Main
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: HOMEBASE_SPIKEC_FREEPLAY
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,774 @@
+{
+  "gameVersion": "1.3.1",
+  "types": [
+    {
+      "name": "FMOD.GUID",
+      "assembly": "FMODUnity",
+      "fields": [
+        "Data1",
+        "Data2",
+        "Data3",
+        "Data4"
+      ]
+    },
+    {
+      "name": "FMODUnity.EventReference",
+      "assembly": "FMODUnity",
+      "fields": [
+        "Guid"
+      ]
+    },
+    {
+      "name": "FuturLab.Addressables.AssetReferenceShaderVariantCollection",
+      "assembly": "FuturLab",
+      "fields": []
+    },
+    {
+      "name": "FuturLab.Conditional",
+      "assembly": "FuturLab",
+      "fields": [
+        "EditorModifier"
+      ]
+    },
+    {
+      "name": "FuturLab.Conditional`1",
+      "assembly": "FuturLab",
+      "fields": []
+    },
+    {
+      "name": "FuturLab.EnumMappings`2",
+      "assembly": "FuturLab",
+      "fields": [
+        "m_mappings"
+      ]
+    },
+    {
+      "name": "FuturLab.EnumMappings`2/Mapping",
+      "assembly": "FuturLab",
+      "fields": [
+        "EnumValue",
+        "Value"
+      ]
+    },
+    {
+      "name": "FuturLab.Network.NetworkPrefabReference",
+      "assembly": "FuturLab",
+      "fields": [
+        "_Prefab_k__BackingField",
+        "_GlobalId_k__BackingField"
+      ]
+    },
+    {
+      "name": "FuturLab.OverridableProperty`1",
+      "assembly": "FuturLab",
+      "fields": [
+        "Override",
+        "Value"
+      ]
+    },
+    {
+      "name": "FuturLab.PlatformConditional",
+      "assembly": "FuturLab",
+      "fields": [
+        "Platform",
+        "ReleaseType",
+        "EditorModifier"
+      ]
+    },
+    {
+      "name": "FuturLab.PrefabLoader",
+      "assembly": "FuturLab",
+      "fields": [
+        "m_parentLoader",
+        "m_prefabsToLoad",
+        "m_instantiateTimePerFrame",
+        "m_loadedInstances",
+        "s_loadedPrefabs",
+        "s_instances",
+        "_Done_k__BackingField",
+        "Completed"
+      ]
+    },
+    {
+      "name": "FuturLab.PrefabToLoad",
+      "assembly": "FuturLab",
+      "fields": [
+        "PrefabAsset",
+        "InstantiateAtRootLevel",
+        "m_executeConditions",
+        "m_useXRCondition",
+        "m_xrExecuteCondition"
+      ]
+    },
+    {
+      "name": "FuturLab.PW2.BonusTaskSettings",
+      "assembly": "FuturLab.PW2.GameContent",
+      "fields": [
+        "_MuckCoinValue_k__BackingField",
+        "_TargetFillDuration_k__BackingField",
+        "_TimeToClean_k__BackingField"
+      ]
+    },
+    {
+      "name": "FuturLab.PW2.CampaignPlayerPrefab",
+      "assembly": "FuturLab.PW2.GameContent",
+      "fields": [
+        "_Prefab_k__BackingField",
+        "_Condition_k__BackingField"
+      ]
+    },
+    {
+      "name": "FuturLab.PW2.CharacterSpawnPosition",
+      "assembly": "FuturLab.PW2",
+      "fields": [
+        "s_collisionMargin",
+        "m_type",
+        "m_obstructionMask",
+        "m_Radius",
+        "m_Height",
+        "m_ObstructionFixIterationCount",
+        "m_InitialPostion",
+        "m_MaxFixDistanceAllowed",
+        "m_collisions",
+        "_UnlockAtStage_k__BackingField"
+      ]
+    },
+    {
+      "name": "FuturLab.PW2.GameContent",
+      "assembly": "FuturLab.PW2.GameContent",
+      "fields": [
+        "m_unlockedByDefault",
+        "m_unlockRules",
+        "m_unlockRuleTargetIds",
+        "m_uniqueId",
+        "m_uniqueName",
+        "m_availability",
+        "m_localizedName",
+        "m_localizedDescription"
+      ]
+    },
+    {
+      "name": "FuturLab.PW2.GameJob",
+      "assembly": "FuturLab.PW2.GameContent",
+      "fields": [
+        "TINY_SAVE_SIZE_MB",
+        "SMALL_SAVE_SIZE_MB",
+        "MEDIUM_SAVE_SIZE_MB",
+        "LARGE_SAVE_SIZE_MB",
+        "XLARGE_SAVE_SIZE_MB",
+        "TASKS_TAB",
+        "TASKS_GROUP",
+        "TASKS_TOOLS_GROUP",
+        "TASKS_TOOLS_BUTTONS_GROUP",
+        "_CampaignID_k__BackingField",
+        "m_saveSize",
+        "m_timelapseQualityOverride",
+        "m_customer",
+        "m_timelapseStaticThumbnail",
+        "_IsTestJob_k__BackingField",
+        "_Location_k__BackingField",
+        "m_stages",
+        "m_bonusTasks",
+        "m_completionPayment",
+        "m_completionPaymentSecondary",
+        "m_useLoadout",
+        "m_loadout",
+        "_CustomizationDisabled_k__BackingField",
+        "m_levelDevelopmentStage",
+        "m_allMessageSequences",
+        "_BriefMessageSequence_k__BackingField",
+        "_CompletionMessageSequence_k__BackingField",
+        "m_stringTableName",
+        "m_localizationId",
+        "m_localizedFreePlayInteraction",
+        "m_storyNameInteraction",
+        "m_freePlayNameInteraction"
+      ]
+    },
+    {
+      "name": "FuturLab.PW2.GameJobBonusTask",
+      "assembly": "FuturLab.PW2.GameContent",
+      "fields": [
+        "m_taskSettings",
+        "m_uniqueId"
+      ]
+    },
+    {
+      "name": "FuturLab.PW2.GameJobCustomer",
+      "assembly": "FuturLab.PW2.GameContent",
+      "fields": [
+        "m_portraitAsset"
+      ]
+    },
+    {
+      "name": "FuturLab.PW2.GameJobStage",
+      "assembly": "FuturLab.PW2.GameContent",
+      "fields": [
+        "m_uniqueName",
+        "m_hideNameWhenLocked",
+        "m_localizationKey",
+        "m_tasks",
+        "m_delayLoadingWashMaps"
+      ]
+    },
+    {
+      "name": "FuturLab.PW2.GameJobTask",
+      "assembly": "FuturLab.PW2.GameContent",
+      "fields": [
+        "m_isDefault",
+        "m_washableObjectUniqueId",
+        "m_parentObjectUniqueId",
+        "m_previousWashableObjectUniqueName",
+        "m_bonusPayment",
+        "m_washTasks",
+        "m_washTaskList",
+        "m_washTaskCount",
+        "m_TaskUniqueName",
+        "m_localizationKey",
+        "m_washableObject"
+      ]
+    },
+    {
+      "name": "FuturLab.PW2.GameJobWashTask",
+      "assembly": "FuturLab.PW2.GameContent",
+      "fields": [
+        "m_washableComponentUniqueId",
+        "m_payment",
+        "m_localizationKey",
+        "m_componentLocalizationKey",
+        "m_componentGroupLocalizationKey",
+        "m_superTaskLocalizationKey",
+        "m_parentWashableObjectUniqueId",
+        "m_superTaskName",
+        "m_washableComponent",
+        "m_localizedName",
+        "m_localizedGroupedWashTaskName",
+        "m_superTaskWashTargetIds"
+      ]
+    },
+    {
+      "name": "FuturLab.PW2.GameJobWashTaskGroupData",
+      "assembly": "FuturLab.PW2.GameContent",
+      "fields": [
+        "m_washTasks"
+      ]
+    },
+    {
+      "name": "FuturLab.PW2.HUDCustomizationData",
+      "assembly": "FuturLab.PW2.GameContent",
+      "fields": [
+        "_LoadoutStanceSprites_k__BackingField"
+      ]
+    },
+    {
+      "name": "FuturLab.PW2.JobPackManifest",
+      "assembly": "FuturLab.PW2.GameContent",
+      "fields": [
+        "PREFABS_GROUP",
+        "JOBS_GROUP",
+        "MESSAGES_GROUP",
+        "EQUIPMENT_GROUP",
+        "CUSTOMIZATION_GROUP",
+        "m_playerPrefabs",
+        "m_networkPrefabs",
+        "m_gameJobs",
+        "m_messageSequences",
+        "m_powerWashers",
+        "_HUDCustomization_k__BackingField"
+      ]
+    },
+    {
+      "name": "FuturLab.PW2.Loadout",
+      "assembly": "FuturLab.PW2.GameContent",
+      "fields": [
+        "m_entries"
+      ]
+    },
+    {
+      "name": "FuturLab.PW2.LoadoutEntry",
+      "assembly": "FuturLab.PW2.GameContent",
+      "fields": [
+        "PowerWasher",
+        "Nozzles",
+        "Extensions"
+      ]
+    },
+    {
+      "name": "FuturLab.PW2.Location",
+      "assembly": "FuturLab.PW2.GameContent",
+      "fields": [
+        "LOADING_SCREEN",
+        "BOX_GROUP_SOAP_CONFIG",
+        "BOX_GROUP_RENDER_PROFILE",
+        "_SceneWashableData_k__BackingField",
+        "_SceneName_k__BackingField",
+        "_LocalizedAddress_k__BackingField",
+        "_SceneAssetReference_k__BackingField",
+        "_SceneShaderCollectionAsset_k__BackingField",
+        "_LocalizedLoadingInfo_k__BackingField",
+        "_LocalizedInputActions_k__BackingField",
+        "_LoadingScreenImageAsset_k__BackingField",
+        "_PreviewImageAsset_k__BackingField",
+        "_ChatImageAsset_k__BackingField",
+        "_SelectedThumbnailImageAsset_k__BackingField",
+        "_DeselectedThumbnailImageAsset_k__BackingField",
+        "_AmbienceSoundEvent_k__BackingField",
+        "_MaxMapHeight_k__BackingField",
+        "_HasWind_k__BackingField",
+        "_HasReverb_k__BackingField",
+        "_OverrideSoapGlobalConfig_k__BackingField",
+        "_RuntimeSoapGlobalConfig_k__BackingField",
+        "_CustomRenderProfile_k__BackingField",
+        "_RuntimeRenderProfile_k__BackingField",
+        "_RuntimeWetnessRenderProfile_k__BackingField",
+        "_RuntimeSoapRenderProfile_k__BackingField"
+      ]
+    },
+    {
+      "name": "FuturLab.PW2.MessagingSystem.MessageSequenceData",
+      "assembly": "FuturLab.PW2.GameContent",
+      "fields": [
+        "m_job",
+        "m_disableMessageTemporarily",
+        "m_strategy",
+        "m_sequence",
+        "_FullDuration_k__BackingField"
+      ]
+    },
+    {
+      "name": "FuturLab.PW2.MuckCoinValue",
+      "assembly": "FuturLab.PW2.Core",
+      "fields": [
+        "Zero",
+        "_Value_k__BackingField"
+      ]
+    },
+    {
+      "name": "FuturLab.PW2.PowerWasherData",
+      "assembly": "FuturLab.PW2.GameContent",
+      "fields": [
+        "Directory",
+        "m_class",
+        "m_showClass",
+        "m_brandData",
+        "m_fmodWasherTypeId",
+        "m_cleaningPower",
+        "m_prefabAsset",
+        "m_sprayVfxPrefabAsset",
+        "m_dirtCleaningPowerPips",
+        "m_nozzles",
+        "m_extensions",
+        "m_skinCollection",
+        "m_radialMenuIcons",
+        "_ShopButtonAsset_k__BackingField",
+        "_LockedShopButtonAsset_k__BackingField"
+      ]
+    },
+    {
+      "name": "FuturLab.PW2.PrimaryCurrencyValue",
+      "assembly": "FuturLab.PW2.Core",
+      "fields": [
+        "Zero",
+        "_Value_k__BackingField"
+      ]
+    },
+    {
+      "name": "FuturLab.PW2.TexturePainter.AssetReferenceTextureLayer",
+      "assembly": "FuturLab.PW2.TexturePainter",
+      "fields": []
+    },
+    {
+      "name": "FuturLab.PW2.TexturePainter.GameJobWashTargetRoot",
+      "assembly": "FuturLab.PW2.TexturePainter",
+      "fields": [
+        "m_csvFileObsolete",
+        "m_csvFileAsset",
+        "m_texturePalette"
+      ]
+    },
+    {
+      "name": "FuturLab.PW2.TexturePainter.PaintOpacityConfig",
+      "assembly": "FuturLab.PW2.TexturePainter",
+      "fields": [
+        "OpacityCurve"
+      ]
+    },
+    {
+      "name": "FuturLab.PW2.TexturePainter.SceneWashableData",
+      "assembly": "FuturLab.PW2.TexturePainter",
+      "fields": [
+        "m_washableObjects",
+        "m_washableComponents"
+      ]
+    },
+    {
+      "name": "FuturLab.PW2.TexturePainter.TextureLayer",
+      "assembly": "FuturLab.PW2.TexturePainter",
+      "fields": [
+        "INSPECTOR_GROUP_DEBUG",
+        "TITLE_GROUP_DIRT_PARTICLES",
+        "TITLE_GROUP_BLENDING_PROPERTIES",
+        "TITLE_GROUP_LAYER_TEXTURES",
+        "TITLE_GROUP_WASHMAP_BEHAVIOR",
+        "TITLE_GROUP_GAMEPLAY_PROPERTIES",
+        "s_cachedLocalizationKeys",
+        "s_cachedLocalisedNames",
+        "m_layerDirtType",
+        "m_diffuseAsset",
+        "m_normalAsset",
+        "m_pbrPackAsset",
+        "m_emulateOldBrokenAlphaPremul",
+        "m_washmapSharpnessThreshold",
+        "m_layerModel",
+        "m_volumetricMaxThickness",
+        "m_volumetricMeanFreePath",
+        "m_layerDiffuseAlphaMode",
+        "m_emissionIntensity",
+        "m_normalFill",
+        "m_washmapSharpness",
+        "m_transparentDirtRemoval",
+        "m_alphaThreshold",
+        "m_overrideParticleColor",
+        "m_particleColor",
+        "m_particleAlpha",
+        "m_coarseParticleAmount",
+        "m_fineParticleAmount",
+        "m_wetParticleAmount",
+        "m_dirtTier"
+      ]
+    },
+    {
+      "name": "FuturLab.PW2.TexturePainter.TexturePalette",
+      "assembly": "FuturLab.PW2.TexturePainter",
+      "fields": [
+        "FOLDOUT_GROUP_DEBUG",
+        "m_paletteAddressables",
+        "m_palette",
+        "m_dirtLayersLocked"
+      ]
+    },
+    {
+      "name": "FuturLab.PW2.TexturePainter.WashableComponentData",
+      "assembly": "FuturLab.PW2.TexturePainter",
+      "fields": [
+        "m_name",
+        "m_uniqueId",
+        "m_parentObjectUniqueId",
+        "m_superTaskName",
+        "m_isSuperTaskMember",
+        "m_superTaskIds",
+        "m_startDirtiness",
+        "m_groupComponentUniqueIds",
+        "m_groupIndex",
+        "m_cleanName",
+        "_GroupComponents_k__BackingField"
+      ]
+    },
+    {
+      "name": "FuturLab.PW2.TexturePainter.WashableObjectData",
+      "assembly": "FuturLab.PW2.TexturePainter",
+      "fields": [
+        "m_name",
+        "m_uniqueId",
+        "m_parentId",
+        "m_fullName",
+        "m_componentUniqueIds",
+        "m_childComponents"
+      ]
+    },
+    {
+      "name": "FuturLab.PW2.TexturePainter.WashTarget",
+      "assembly": "FuturLab.PW2.TexturePainter",
+      "fields": [
+        "INSTANCED_MATERIAL_SUFFIX",
+        "CONTROL_MAP_FOLDER_NAME",
+        "DIRT_MASK_FOLDER_NAME",
+        "TEXTURE_BLOCK_SIZE",
+        "m_transform",
+        "m_canBeCleanedByClient",
+        "m_washTargetData",
+        "m_gameJobWashTargetRoot",
+        "m_uniqueId",
+        "m_renderSettings",
+        "m_meshRenderer",
+        "m_superTaskTargets",
+        "m_internalSuperTaskTargets",
+        "m_lastGroupedWashTargetInvalid",
+        "m_washMapRT",
+        "m_effectMapRT",
+        "m_runtimeControlMap",
+        "s_dryingDebug",
+        "_WashIndex_k__BackingField",
+        "_WashMapRectTx_k__BackingField",
+        "_IsLoaded_k__BackingField",
+        "_DoingSoapCountReadback_k__BackingField",
+        "_QueueSoapCountReadback_k__BackingField",
+        "_WashedThisFrame_k__BackingField",
+        "_WashingEnabled_k__BackingField",
+        "_StartDirtiness_k__BackingField",
+        "_CurrentDirtiness_k__BackingField",
+        "_SoapCount_k__BackingField",
+        "_WashMapRTDimensions_k__BackingField",
+        "_WashMapRTGraphicsFormat_k__BackingField",
+        "_NormalizedDirtiness_k__BackingField",
+        "_CleanProgress_k__BackingField",
+        "_CleanWeight_k__BackingField",
+        "IsSuperTask",
+        "SuperTaskName"
+      ]
+    },
+    {
+      "name": "FuturLab.PW2.TexturePainter.WashTargetData",
+      "assembly": "FuturLab.PW2.TexturePainter",
+      "fields": [
+        "DebugGroup",
+        "_SuggestedControlMapResolution_k__BackingField",
+        "_ControlMapAsset_k__BackingField",
+        "_ControlMapAreaInUse_k__BackingField",
+        "_ControlMapTotalRect_k__BackingField",
+        "_ControlMapTrimmedRect_k__BackingField",
+        "_TexturePalette_k__BackingField",
+        "_OverrideSurfaceCleanThreshold_k__BackingField",
+        "_SurfaceCleanThreshold_k__BackingField",
+        "_TemplatePaintLayerMaterial_k__BackingField",
+        "_OpacityCurveConfig_k__BackingField",
+        "_ConfirmedByDesigner_k__BackingField",
+        "_ApprovedByDesign_k__BackingField"
+      ]
+    },
+    {
+      "name": "FuturLab.PW2.TexturePainter.WashTargetRoot",
+      "assembly": "FuturLab.PW2.TexturePainter",
+      "fields": [
+        "m_uniqueId"
+      ]
+    },
+    {
+      "name": "FuturLab.PW2.TimelapseQualityConfig",
+      "assembly": "FuturLab.PW2.Core",
+      "fields": [
+        "_MaxPixelDiff_k__BackingField",
+        "_MinPixelDiffCount_k__BackingField"
+      ]
+    },
+    {
+      "name": "FuturLab.PW2.UnlockRule",
+      "assembly": "FuturLab.PW2.GameContent",
+      "fields": [
+        "m_unlockableRuleType",
+        "m_unlockRequirement",
+        "IsOptional",
+        "ResultIfTrue",
+        "ResultIfFalse"
+      ]
+    },
+    {
+      "name": "FuturLab.PW2.UVMetricsExtra",
+      "assembly": "FuturLab.PW2.TexturePainter",
+      "fields": [
+        "_UV0DistributionMetricUnity_k__BackingField",
+        "_UV0DistributionMetric_k__BackingField",
+        "_UV1DistributionMetricUnity_k__BackingField",
+        "_UV1DistributionMetric_k__BackingField",
+        "_UV2DistributionMetric_k__BackingField",
+        "_UV3DistributionMetric_k__BackingField"
+      ]
+    },
+    {
+      "name": "FuturLab.PW2.WashGraphics.SoapGlobalConfiguration",
+      "assembly": "FuturLab.PW2.WashGraphics",
+      "fields": [
+        "RENDER_PROFILE_PATH",
+        "PROFILE_NAME",
+        "SOAP_LIMIT_RELATIVE_MIN",
+        "MAX_PLAYERS",
+        "HEADER_CONFIG",
+        "HEADER_DRYING",
+        "HEADER_WASHING",
+        "HEADER_DEBUG",
+        "NETWORK_SOAP_ACTIVE_TARGETS_TIMEOUT_SECONDS",
+        "_SoapEnabled_k__BackingField",
+        "_DefaultWashConfig_k__BackingField",
+        "_SoapDryingDuration_k__BackingField",
+        "_SoapLimitDryingObjects_k__BackingField",
+        "_SoapMaxDryingObjects_k__BackingField",
+        "_SoapUseDurationMultiplier_k__BackingField",
+        "_SoapDryingDurationMultiplier_k__BackingField",
+        "_SoapReducedDryingDuration_k__BackingField",
+        "_SoapRefreshDryingDuration_k__BackingField",
+        "_SoapRefreshUiDelay_k__BackingField",
+        "_SoapStickThreshold_k__BackingField",
+        "_SoapCleanThreshold_k__BackingField",
+        "_SoapCountThreshold_k__BackingField",
+        "_WetnessBeginDryThreshold_k__BackingField",
+        "_StaticSoapLimitThreshold_k__BackingField",
+        "_SoapLimitThreshold_k__BackingField",
+        "_SoapLimitStatic_k__BackingField",
+        "_SoapLimitMultiplier_k__BackingField",
+        "_m_totalSoapCount_k__BackingField",
+        "_m_totalStartDirtiness_k__BackingField",
+        "m_soapLiquidAmountFracDelayed",
+        "m_prevSoapLiquidFracAmount",
+        "_m_quickDry_k__BackingField",
+        "_m_networkQuickDryOverride_k__BackingField",
+        "m_networkQuickDry"
+      ]
+    },
+    {
+      "name": "FuturLab.PW2.WashGraphics.WashRenderProfile",
+      "assembly": "FuturLab.PW2.WashGraphics",
+      "fields": [
+        "FOLDOUT_GROUP_DIRT_NOISE",
+        "FOLDOUT_GROUP_DIRT_PARTICLES",
+        "FOLDOUT_GROUP_WET_SURFACES",
+        "FOLDOUT_GROUP_SOAP",
+        "FOLDOUT_GROUP_OBJECT_HIGHLIGHT",
+        "FOLDOUT_GROUP_DIRT_HIGHLIGHT",
+        "FOLDOUT_GROUP_FLASH_WHEN_CLEAN",
+        "FOLDOUT_GROUP_DEBUG",
+        "_DirtNoiseScale_k__BackingField",
+        "_DirtNoiseAmount_k__BackingField",
+        "_DirtParticlesAmount_k__BackingField",
+        "_m_overrideWetnessProfile_k__BackingField",
+        "_WetnessProfile_k__BackingField",
+        "_CustomWetnessProfile_k__BackingField",
+        "_m_overrideSoapProfile_k__BackingField",
+        "_SoapProfile_k__BackingField",
+        "_CustomSoapProfile_k__BackingField",
+        "_ObjectHighlightColor_k__BackingField",
+        "_ObjectHighlightFadeAwaySpeed_k__BackingField",
+        "_ObjectHighlightFadeInDelay_k__BackingField",
+        "_ObjectHighlightPulseDuration_k__BackingField",
+        "_ObjectHighlightPulseCurve_k__BackingField",
+        "_DirtHighlightDuration_k__BackingField",
+        "_DirtHighlightGradient_k__BackingField",
+        "_FlashDuration_k__BackingField",
+        "_FlashGradient_k__BackingField",
+        "_GridTexture_k__BackingField",
+        "_Initialized_k__BackingField"
+      ]
+    },
+    {
+      "name": "FuturLab.PW2.WashGraphics.WashRenderSettings",
+      "assembly": "FuturLab.PW2.WashGraphics",
+      "fields": [
+        "BOX_GROUP_COMPUTE_SHADERS",
+        "BOX_GROUP_DEBUG_COMPUTE_SHADERS",
+        "FOLDOUT_GROUP_WASH_RENDER_PROFILE",
+        "RENDER_PROFILE_PATH",
+        "PROFILE_NAME",
+        "m_countDirtShader",
+        "m_countSoapShader",
+        "m_countTotalSoapShader",
+        "m_hitDetectShader",
+        "m_autoDirtRemovalShader",
+        "m_initializeWashMapShader",
+        "m_dryEffectMapShader",
+        "m_getDirtinessAtPointShader",
+        "m_copyWithMaskShader",
+        "m_refreshCleanMapShader",
+        "m_applyCleanMapShader",
+        "m_defaultWashRenderProfiles",
+        "m_runtimeWashRenderProfile",
+        "m_setEffectChannel"
+      ]
+    },
+    {
+      "name": "FuturLab.PW2.WashGraphics.WashRenderSoapProfile",
+      "assembly": "FuturLab.PW2.WashGraphics",
+      "fields": [
+        "TITLE_GROUP_GLOBAL_CONFIG",
+        "TITLE_GROUP_WASH_CONFIG",
+        "HEADER_VISUALS_TYPE",
+        "HEADER_VISUALS",
+        "HEADER_QUALITY",
+        "_EffectVisualType_k__BackingField",
+        "_SoapBaseColor_k__BackingField",
+        "_SoapBaseTexture_k__BackingField",
+        "_SoapDirtBlend_k__BackingField",
+        "_SoapLimitLightIntensity_k__BackingField",
+        "_SoapNormalScale_k__BackingField",
+        "_SoapNormalBlend_k__BackingField",
+        "_SoapSmoothness_k__BackingField",
+        "_SoapMetallic_k__BackingField",
+        "_SoapOcclusion_k__BackingField",
+        "_SoapLightMapBlend_k__BackingField",
+        "_SoapSharpness_k__BackingField",
+        "_SoapQuality_k__BackingField",
+        "_SoapTexture3DLow_k__BackingField",
+        "_NoiseScaleLow_k__BackingField",
+        "_SoapTexture3DMedium_k__BackingField",
+        "_NoiseScaleMedium_k__BackingField",
+        "_ScrollSpeedMedium_k__BackingField",
+        "_DirectionThresholdMedium_k__BackingField",
+        "_SoapTexture3DHigh_k__BackingField",
+        "_NoiseScaleHigh_k__BackingField",
+        "_ScrollSpeedHigh_k__BackingField",
+        "_DirectionThresholdHigh_k__BackingField",
+        "_UseSoapDistance_k__BackingField",
+        "_SoapMinDistance_k__BackingField",
+        "_SoapMaxDistance_k__BackingField",
+        "_m_soapVisible_k__BackingField"
+      ]
+    },
+    {
+      "name": "FuturLab.PW2.WashGraphics.WashRenderWetnessProfile",
+      "assembly": "FuturLab.PW2.WashGraphics",
+      "fields": [
+        "HEADER_CONFIG",
+        "HEADER_DRYING",
+        "HEADER_QUALITY",
+        "HEADER_VISUALS_TYPE",
+        "HEADER_REFLECTIONS",
+        "MAX_CHANNELS",
+        "_EffectMapChannelCount_k__BackingField",
+        "_ChannelSettings_k__BackingField",
+        "_WetnessQuality_k__BackingField",
+        "_WetnessSharpness_k__BackingField",
+        "_WetnessPorosity_k__BackingField",
+        "_WetnessClearCoatForAdr_k__BackingField",
+        "_WetnessDryingDuration_k__BackingField",
+        "_WetnessLimitDryingObjects_k__BackingField",
+        "_WetnessMaxDryingObjects_k__BackingField",
+        "_WetnessUseDurationMultiplier_k__BackingField",
+        "_WetnessDryingDurationMultiplier_k__BackingField",
+        "_WetnessReducedDryingDuration_k__BackingField",
+        "_EffectVisualType_k__BackingField",
+        "_WetnessAlbedoColor_k__BackingField",
+        "_WetnessAlbedoTexture_k__BackingField",
+        "_WetnessFlareColor_k__BackingField",
+        "_WetnessSmoothnessAmount_k__BackingField",
+        "_WetnessSmoothnessOverMetallic_k__BackingField",
+        "_WetnessSmoothnessTimeOffset_k__BackingField",
+        "_WetnessClearCoatTimeOffset_k__BackingField",
+        "_WetnessCubemap_k__BackingField",
+        "_WetnessCubemapAmount_k__BackingField",
+        "_WetnessCubemapLightmapBlend_k__BackingField",
+        "_WetnessNoise3D_k__BackingField",
+        "_WetnessNormalAmount_k__BackingField",
+        "_WetnessNormalSmoothingAmount_k__BackingField",
+        "_WetnessNormalMapScale_k__BackingField",
+        "_WetnessNormalScrollSpeed_k__BackingField",
+        "_WetnessNormalDirectionThreshold_k__BackingField",
+        "_m_wetnessForcedOn_k__BackingField",
+        "_m_wetnessForcedOff_k__BackingField",
+        "_m_timeOffset_k__BackingField"
+      ]
+    },
+    {
+      "name": "FuturLab.UniqueId",
+      "assembly": "FuturLab",
+      "fields": [
+        "m_id",
+        "m_ignorePrefabs"
+      ]
+    },
+    {
+      "name": "FuturLab.XRSDKConditional",
+      "assembly": "FuturLab",
+      "fields": [
+        "m_enabledXRSDKs"
+      ]
+    }
+  ]
+}

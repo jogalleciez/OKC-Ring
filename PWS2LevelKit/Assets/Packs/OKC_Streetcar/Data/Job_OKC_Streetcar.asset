@@ -1,0 +1,348 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 707ad5c55906c2f4eb92b7abae1d7a1c, type: 3}
+  m_Name: Job_OKC_Streetcar
+  m_EditorClassIdentifier: 
+  m_unlockedByDefault: 1
+  m_unlockRules: []
+  m_unlockRuleTargetIds: 
+  m_uniqueId: 172155365
+  m_uniqueName: OKC_STREETCAR
+  m_availability:
+    Platform: -1
+    ReleaseType: -1
+    EditorModifier: 0
+  m_localizedName:
+    m_TableReference:
+      m_TableCollectionName: PWS2_Main
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: SCRIPT_CAREER_OKC_STREETCAR_TITLE
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_localizedDescription:
+    m_TableReference:
+      m_TableCollectionName: PWS2_Main
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: SCRIPT_CAREER_OKC_STREETCAR_DESCRIPTION
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  <CampaignID>k__BackingField: -782300793
+  m_saveSize: 2
+  m_timelapseQualityOverride:
+    Override: 0
+    Value:
+      <MaxPixelDiff>k__BackingField: 5
+      <MinPixelDiffCount>k__BackingField: 4
+  m_customer: {fileID: 11400000, guid: 75583f7582227264e8bd151d29f9eb1b, type: 2}
+  m_timelapseStaticThumbnail:
+    m_AssetGUID: 495408309162a854bb59cf2d6068f208
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0
+  <IsTestJob>k__BackingField: 0
+  <Location>k__BackingField:
+    <SceneWashableData>k__BackingField: {fileID: 11400000, guid: 7a824a73d89bfcd438683654880d0145, type: 2}
+    <SceneName>k__BackingField: GAM_PW2_HS_Tram
+    <LocalizedAddress>k__BackingField:
+      m_TableReference:
+        m_TableCollectionName: PWS2_Main
+      m_TableEntryReference:
+        m_KeyId: 0
+        m_Key: SCRIPT_CAREER_OKC_STREETCAR_ADDRESS
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    <SceneAssetReference>k__BackingField:
+      m_AssetGUID: 430726867bfab74409b388bdd6f12b50
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    <SceneShaderCollectionAsset>k__BackingField:
+      m_AssetGUID: b6e3e65d760e5ee46836cba19c2a6089
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    <LocalizedLoadingInfo>k__BackingField:
+      m_TableReference:
+        m_TableCollectionName: PWS2_Main
+      m_TableEntryReference:
+        m_KeyId: 0
+        m_Key: SCRIPT_CAREER_OKC_STREETCAR_DESCRIPTION
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    <LocalizedInputActions>k__BackingField: []
+    <LoadingScreenImageAsset>k__BackingField:
+      m_AssetGUID: 03e8a69fe70511d4c905efd6995efc6e
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    <PreviewImageAsset>k__BackingField:
+      m_AssetGUID: 316c819d6de56114d84e8b121fe66b47
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    <ChatImageAsset>k__BackingField:
+      m_AssetGUID: 324d1fcaa9ad11f4b94da0f632bf1e80
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    <SelectedThumbnailImageAsset>k__BackingField:
+      m_AssetGUID: 4fe1d11326223a743ae40b1dce85793e
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    <DeselectedThumbnailImageAsset>k__BackingField:
+      m_AssetGUID: ff3cda8f57385a9449c992137e799df4
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    <AmbienceSoundEvent>k__BackingField:
+      Guid:
+        Data1: -692974007
+        Data2: 1229322762
+        Data3: 1293535895
+        Data4: -468369115
+    <MaxMapHeight>k__BackingField: 0
+    <HasWind>k__BackingField: 0
+    <HasReverb>k__BackingField: 0
+    <OverrideSoapGlobalConfig>k__BackingField: 0
+    <RuntimeSoapGlobalConfig>k__BackingField: {fileID: 0}
+    <CustomRenderProfile>k__BackingField: 0
+    <RuntimeRenderProfile>k__BackingField: {fileID: 0}
+    <RuntimeWetnessRenderProfile>k__BackingField: {fileID: 0}
+    <RuntimeSoapRenderProfile>k__BackingField: {fileID: 0}
+  m_stages:
+  - m_uniqueName: 
+    m_hideNameWhenLocked: 0
+    m_localizationKey: STAGE_OKC_STREETCAR_
+    m_tasks:
+    - m_isDefault: 1
+      m_washableObjectUniqueId: -1134888441
+      m_parentObjectUniqueId: 0
+      m_previousWashableObjectUniqueName: 
+      m_bonusPayment:
+        <Value>k__BackingField: 0
+      m_washTasks:
+        m_washTasks: []
+      m_washTaskList:
+      - m_washableComponentUniqueId: -27489475
+        m_payment:
+          <Value>k__BackingField: 100
+        m_localizationKey: WASHTASK_GAM_PW2_HS_TRAM_WASH_OKC_PANEL_01
+        m_componentLocalizationKey: WASHTASK_GAM_PW2_HS_TRAM_WASH_OKC_PANEL_01
+        m_componentGroupLocalizationKey: WASHTASK_GAM_PW2_HS_TRAM_WASH_OKC_PANEL_01_GROUP
+        m_superTaskLocalizationKey: 
+        m_parentWashableObjectUniqueId: -1134888441
+        m_superTaskName: 
+        m_superTaskWashTargetIds: 
+      - m_washableComponentUniqueId: -430774002
+        m_payment:
+          <Value>k__BackingField: 100
+        m_localizationKey: WASHTASK_GAM_PW2_HS_TRAM_WASH_OKC_PANEL_02
+        m_componentLocalizationKey: WASHTASK_GAM_PW2_HS_TRAM_WASH_OKC_PANEL_02
+        m_componentGroupLocalizationKey: WASHTASK_GAM_PW2_HS_TRAM_WASH_OKC_PANEL_02_GROUP
+        m_superTaskLocalizationKey: 
+        m_parentWashableObjectUniqueId: -1134888441
+        m_superTaskName: 
+        m_superTaskWashTargetIds: 
+      - m_washableComponentUniqueId: 1135309939
+        m_payment:
+          <Value>k__BackingField: 100
+        m_localizationKey: WASHTASK_GAM_PW2_HS_TRAM_WASH_OKC_PANEL_03
+        m_componentLocalizationKey: WASHTASK_GAM_PW2_HS_TRAM_WASH_OKC_PANEL_03
+        m_componentGroupLocalizationKey: WASHTASK_GAM_PW2_HS_TRAM_WASH_OKC_PANEL_03_GROUP
+        m_superTaskLocalizationKey: 
+        m_parentWashableObjectUniqueId: -1134888441
+        m_superTaskName: 
+        m_superTaskWashTargetIds: 
+      - m_washableComponentUniqueId: 732025412
+        m_payment:
+          <Value>k__BackingField: 100
+        m_localizationKey: WASHTASK_GAM_PW2_HS_TRAM_WASH_OKC_PANEL_04
+        m_componentLocalizationKey: WASHTASK_GAM_PW2_HS_TRAM_WASH_OKC_PANEL_04
+        m_componentGroupLocalizationKey: WASHTASK_GAM_PW2_HS_TRAM_WASH_OKC_PANEL_04_GROUP
+        m_superTaskLocalizationKey: 
+        m_parentWashableObjectUniqueId: -1134888441
+        m_superTaskName: 
+        m_superTaskWashTargetIds: 
+      - m_washableComponentUniqueId: -1996857943
+        m_payment:
+          <Value>k__BackingField: 100
+        m_localizationKey: WASHTASK_GAM_PW2_HS_TRAM_WASH_OKC_PANEL_05
+        m_componentLocalizationKey: WASHTASK_GAM_PW2_HS_TRAM_WASH_OKC_PANEL_05
+        m_componentGroupLocalizationKey: WASHTASK_GAM_PW2_HS_TRAM_WASH_OKC_PANEL_05_GROUP
+        m_superTaskLocalizationKey: 
+        m_parentWashableObjectUniqueId: -1134888441
+        m_superTaskName: 
+        m_superTaskWashTargetIds: 
+      - m_washableComponentUniqueId: 1894824826
+        m_payment:
+          <Value>k__BackingField: 100
+        m_localizationKey: WASHTASK_GAM_PW2_HS_TRAM_WASH_OKC_PANEL_06
+        m_componentLocalizationKey: WASHTASK_GAM_PW2_HS_TRAM_WASH_OKC_PANEL_06
+        m_componentGroupLocalizationKey: WASHTASK_GAM_PW2_HS_TRAM_WASH_OKC_PANEL_06_GROUP
+        m_superTaskLocalizationKey: 
+        m_parentWashableObjectUniqueId: -1134888441
+        m_superTaskName: 
+        m_superTaskWashTargetIds: 
+      - m_washableComponentUniqueId: -834058529
+        m_payment:
+          <Value>k__BackingField: 100
+        m_localizationKey: WASHTASK_GAM_PW2_HS_TRAM_WASH_OKC_PANEL_07
+        m_componentLocalizationKey: WASHTASK_GAM_PW2_HS_TRAM_WASH_OKC_PANEL_07
+        m_componentGroupLocalizationKey: WASHTASK_GAM_PW2_HS_TRAM_WASH_OKC_PANEL_07_GROUP
+        m_superTaskLocalizationKey: 
+        m_parentWashableObjectUniqueId: -1134888441
+        m_superTaskName: 
+        m_superTaskWashTargetIds: 
+      - m_washableComponentUniqueId: -1949803776
+        m_payment:
+          <Value>k__BackingField: 100
+        m_localizationKey: WASHTASK_GAM_PW2_HS_TRAM_WASH_OKC_PANEL_08
+        m_componentLocalizationKey: WASHTASK_GAM_PW2_HS_TRAM_WASH_OKC_PANEL_08
+        m_componentGroupLocalizationKey: WASHTASK_GAM_PW2_HS_TRAM_WASH_OKC_PANEL_08_GROUP
+        m_superTaskLocalizationKey: 
+        m_parentWashableObjectUniqueId: -1134888441
+        m_superTaskName: 
+        m_superTaskWashTargetIds: 
+      - m_washableComponentUniqueId: -383719835
+        m_payment:
+          <Value>k__BackingField: 100
+        m_localizationKey: WASHTASK_GAM_PW2_HS_TRAM_WASH_OKC_PANEL_09
+        m_componentLocalizationKey: WASHTASK_GAM_PW2_HS_TRAM_WASH_OKC_PANEL_09
+        m_componentGroupLocalizationKey: WASHTASK_GAM_PW2_HS_TRAM_WASH_OKC_PANEL_09_GROUP
+        m_superTaskLocalizationKey: 
+        m_parentWashableObjectUniqueId: -1134888441
+        m_superTaskName: 
+        m_superTaskWashTargetIds: 
+      - m_washableComponentUniqueId: -1593573415
+        m_payment:
+          <Value>k__BackingField: 100
+        m_localizationKey: WASHTASK_GAM_PW2_HS_TRAM_WASH_OKC_PANEL_10
+        m_componentLocalizationKey: WASHTASK_GAM_PW2_HS_TRAM_WASH_OKC_PANEL_10
+        m_componentGroupLocalizationKey: WASHTASK_GAM_PW2_HS_TRAM_WASH_OKC_PANEL_10_GROUP
+        m_superTaskLocalizationKey: 
+        m_parentWashableObjectUniqueId: -1134888441
+        m_superTaskName: 
+        m_superTaskWashTargetIds: 
+      - m_washableComponentUniqueId: -27489474
+        m_payment:
+          <Value>k__BackingField: 100
+        m_localizationKey: WASHTASK_GAM_PW2_HS_TRAM_WASH_OKC_PANEL_11
+        m_componentLocalizationKey: WASHTASK_GAM_PW2_HS_TRAM_WASH_OKC_PANEL_11
+        m_componentGroupLocalizationKey: WASHTASK_GAM_PW2_HS_TRAM_WASH_OKC_PANEL_11_GROUP
+        m_superTaskLocalizationKey: 
+        m_parentWashableObjectUniqueId: -1134888441
+        m_superTaskName: 
+        m_superTaskWashTargetIds: 
+      - m_washableComponentUniqueId: -430774001
+        m_payment:
+          <Value>k__BackingField: 100
+        m_localizationKey: WASHTASK_GAM_PW2_HS_TRAM_WASH_OKC_PANEL_12
+        m_componentLocalizationKey: WASHTASK_GAM_PW2_HS_TRAM_WASH_OKC_PANEL_12
+        m_componentGroupLocalizationKey: WASHTASK_GAM_PW2_HS_TRAM_WASH_OKC_PANEL_12_GROUP
+        m_superTaskLocalizationKey: 
+        m_parentWashableObjectUniqueId: -1134888441
+        m_superTaskName: 
+        m_superTaskWashTargetIds: 
+      - m_washableComponentUniqueId: 1135309940
+        m_payment:
+          <Value>k__BackingField: 100
+        m_localizationKey: WASHTASK_GAM_PW2_HS_TRAM_WASH_OKC_PANEL_13
+        m_componentLocalizationKey: WASHTASK_GAM_PW2_HS_TRAM_WASH_OKC_PANEL_13
+        m_componentGroupLocalizationKey: WASHTASK_GAM_PW2_HS_TRAM_WASH_OKC_PANEL_13_GROUP
+        m_superTaskLocalizationKey: 
+        m_parentWashableObjectUniqueId: -1134888441
+        m_superTaskName: 
+        m_superTaskWashTargetIds: 
+      - m_washableComponentUniqueId: 732025413
+        m_payment:
+          <Value>k__BackingField: 100
+        m_localizationKey: WASHTASK_GAM_PW2_HS_TRAM_WASH_OKC_PANEL_14
+        m_componentLocalizationKey: WASHTASK_GAM_PW2_HS_TRAM_WASH_OKC_PANEL_14
+        m_componentGroupLocalizationKey: WASHTASK_GAM_PW2_HS_TRAM_WASH_OKC_PANEL_14_GROUP
+        m_superTaskLocalizationKey: 
+        m_parentWashableObjectUniqueId: -1134888441
+        m_superTaskName: 
+        m_superTaskWashTargetIds: 
+      - m_washableComponentUniqueId: 333379953
+        m_payment:
+          <Value>k__BackingField: 200
+        m_localizationKey: WASHTASK_GAM_PW2_HS_TRAM_WASH_OKC_SCREEN_PLINTH
+        m_componentLocalizationKey: WASHTASK_GAM_PW2_HS_TRAM_WASH_OKC_SCREEN_PLINTH
+        m_componentGroupLocalizationKey: WASHTASK_GAM_PW2_HS_TRAM_WASH_OKC_SCREEN_PLINTH_GROUP
+        m_superTaskLocalizationKey: 
+        m_parentWashableObjectUniqueId: -1134888441
+        m_superTaskName: 
+        m_superTaskWashTargetIds: 
+      m_washTaskCount: 15
+      m_TaskUniqueName: OKC_STREETCAR_TASK
+      m_localizationKey: TASK_OKC_STREETCAR_MAIN
+    m_delayLoadingWashMaps: 0
+  m_bonusTasks: []
+  m_completionPayment:
+    <Value>k__BackingField: 2500
+  m_completionPaymentSecondary:
+    <Value>k__BackingField: 150
+  m_useLoadout: 0
+  m_loadout:
+    m_entries: []
+  <CustomizationDisabled>k__BackingField: 0
+  m_levelDevelopmentStage: 2
+  m_allMessageSequences: []
+  <BriefMessageSequence>k__BackingField: {fileID: 0}
+  <CompletionMessageSequence>k__BackingField: {fileID: 0}
+  m_stringTableName: PWS2_Main
+  m_localizationId: 
+  m_localizedFreePlayInteraction:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_storyNameInteraction:
+    m_TableReference:
+      m_TableCollectionName: PWS2_Main
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: HOMEBASE_OKC_STREETCAR_STORY
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_freePlayNameInteraction:
+    m_TableReference:
+      m_TableCollectionName: PWS2_Main
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: HOMEBASE_OKC_STREETCAR_FREEPLAY
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  references:
+    version: 2
+    RefIds: []

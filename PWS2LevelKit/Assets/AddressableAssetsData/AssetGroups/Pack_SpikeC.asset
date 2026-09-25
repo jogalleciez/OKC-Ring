@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Pack_SpikeC
+  m_EditorClassIdentifier: 
+  m_GroupName: Pack_SpikeC
+  m_GUID: f7929c1dcebba354782b1b9b9ff48d31
+  m_SerializeEntries:
+  - m_GUID: 1b95acf58c30b5d428eda57a313c89d0
+    m_Address: WTD_SpikeC_Panel
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3d8ba57af70a59a49ab4706b9feaa4a2
+    m_Address: PWS_SPIKEC_Root_washtargets
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 436d2ac4c8ca25c4392efefc735ead3f
+    m_Address: TPL_SpikeC
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4e1f058e03352694fbf9807d455586dd
+    m_Address: Customer_SpikeC
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 59e262f41b741dd48b439dcb31379022
+    m_Address: SWD_SpikeC
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6894346eb7a44b8479a5bfa7e9a3a17a
+    m_Address: CM_SpikeC_Panel
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7bbbe0dd63f340644818f7c9756cdd32
+    m_Address: JobPackManifest_SpikeC
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 93c66d24fd6681c44aa2fcdf2c8ee628
+    m_Address: GAM_SPIKEC_Panel
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9fd487312f372ba43b3d0069c694811e
+    m_Address: Job_SpikeC
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a135dcd43330ff942b484d0ba02a6bd4
+    m_Address: MAT_SpikeC_Panel
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d25c3bc559c5d4749996a12b51fbb7d5
+    m_Address: Mesh_SpikeC_Panel
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: cac6b950c1463e248b2c0bbb2e714829, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 2ef52ab358e724a41855233782dd86e3, type: 2}
+    - {fileID: 11400000, guid: e5716df0b795c25459f0369640c4635b, type: 2}

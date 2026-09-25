@@ -1,0 +1,19 @@
+{
+  "id": "SpikeC",
+  "displayName": "Spike C (one washable panel)",
+  "version": "0.0.1",
+  "gameVersion": "1.3.1",
+  "catalog": "catalog.bin",
+  "jobPackManifestGuid": "7bbbe0dd63f340644818f7c9756cdd32",
+  "jobs": [ {
+    "uniqueName": "SPIKEC", "uniqueId": -1906918709, "sceneName": "GAM_SPIKEC_Panel",
+    "title": "Spike C Panel", "address": "Spike Street, Testville", "description": "One washable panel built entirely from the level kit.",
+    "freePlayName": "Spike C Panel (Free Play)", "storyName": "Spike C Panel",
+    "thumbnailSelectedGuid": "53673f1550c0aca4284677e4b9740f96", "thumbnailDeselectedGuid": "044f6bbd34e34ae468c28348a16df456"
+  } ],
+  "strings": {
+    "CUSTOMER_CAREER_SPIKECCUSTOMER_TITLE": "Spike Tester", "CUSTOMER_CAREER_SPIKECCUSTOMER_DESCRIPTION": "Tests panels.",
+    "TASK_SPIKEC_MAIN": "The panel",
+    "WASHTASK_GAM_SPIKEC_PANEL_WASH_PANEL": "Panel", "WASHTASK_GAM_SPIKEC_PANEL_WASH_PANEL_GROUP": "Panel"
+  }
+}

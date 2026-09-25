@@ -1,0 +1,438 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Pack_OKC_TransformerScreen
+  m_EditorClassIdentifier: 
+  m_GroupName: Pack_OKC_TransformerScreen
+  m_GUID: b245f95b871549c4eb21c926df1a453b
+  m_SerializeEntries:
+  - m_GUID: 00c9a21c891a1a14e868c4bc21b22f0b
+    m_Address: MAT_OKC_RoadPaint
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 03e806bfd24c2154f9f09d7062b3d68c
+    m_Address: Job_OKC_TransformerScreen
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 06484ccaa0a041f4d9c91f446f1530e7
+    m_Address: SWD_OKC
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 06b3dab0075f5b84da0f8332e35803ff
+    m_Address: MAT_OKC_Asphalt
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 076250e7d4ae0d74a98257f6697c1f19
+    m_Address: Mesh_OKC_Panel_14
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 08ad7ea298e87144db7b7d07a0df67ae
+    m_Address: WTD_OKC_Panel_05
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 08d90f11188e20f4e9f423f081d4f598
+    m_Address: CM_OKC_Panel_10
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0b9c540fbade5cf468f369354a39c39c
+    m_Address: Mesh_OKC_Panel_12
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 186f8914264d27a41aececf3a42ba5b2
+    m_Address: Mesh_OKC_Panel_04
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 188a372c3c4c794448e7064314baae25
+    m_Address: CM_OKC_Panel_06
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1b882c578e2d3164b8250532ddc77416
+    m_Address: WTD_OKC_Panel_09
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1e46a03d0b16e5141aae6c663ae4a28c
+    m_Address: WTD_OKC_Panel_03
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1e6b9c97725d9ff45b8dca5d186907de
+    m_Address: ChatIcon_OKC
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 205306504d8f46d44ae7a54077fc1f13
+    m_Address: MAT_OKC_Planter
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 213988de6339d324b890d450f992255a
+    m_Address: MAT_OKC_Concrete
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 22fe679b799cb7d4fb9368ae58528c05
+    m_Address: WTD_OKC_Panel_12
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2530226754d7adf4aa36cb24c8da0b78
+    m_Address: CM_OKC_Panel_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 295b75b05636eed4ab84a1a5de6842e5
+    m_Address: MAT_OKC_Facade_A
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2a14438225483934d9da355862726a20
+    m_Address: CM_OKC_Panel_11
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 322694b5d1dc8f24aa4855b6308a9393
+    m_Address: CM_OKC_Panel_12
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 37af995db3307df4cb5542a54c83b8b9
+    m_Address: MAT_OKC_Roof
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 394e4f930af6e674e9c8066db36688c9
+    m_Address: MAT_OKC_Bark
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3bfd8686d13afc444b7c758a8c451d23
+    m_Address: JobPackManifest_OKC
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3d120411bdab09c43965a8f7ac2721e3
+    m_Address: Mesh_OKC_Panel_09
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 40b51532b8f37484cb2835948ccde84b
+    m_Address: CM_OKC_Panel_09
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4447dfcfea3aa7247bc54de63bc8490f
+    m_Address: Mesh_OKC_Panel_11
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 46fda4937d2dff541ad6043e91e3893e
+    m_Address: Mesh_OKC_Panel_06
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4b627dead77f1a148add62e1c833fa3f
+    m_Address: MAT_OKC_SkyDome
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4b78ca8e54bd7274db36f13374610607
+    m_Address: Mesh_OKC_Panel_05
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4c874007650bd5f4e92c2920cd301182
+    m_Address: Mesh_OKC_Panel_13
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4d0d00eb49442f948bc2f100990f1858
+    m_Address: PWS_OKC_Root_washtargets
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4e5196919c713ec438cae0bf3fdbd094
+    m_Address: MAT_OKC_Pavers
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 51393a3d18526794f97325fee9ab9f7f
+    m_Address: Mesh_OKC_SkyDome
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 58a118f94c626ab439aed32109757b6b
+    m_Address: CM_OKC_Panel_04
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 59b90dfed1376ba479048f248cafd24f
+    m_Address: Mesh_OKC_Panel_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5d5281ecdd89efc4895084705b05e391
+    m_Address: MAT_OKC_BenchWood
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 60944c2f4cc00d1459055d2028803b44
+    m_Address: MAT_OKC_Grass
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 65af2364db7f7f845bc2ccb595abebf0
+    m_Address: Thumbnail_OKC_B
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6808128e7ec66954aa648992412e81e6
+    m_Address: Mesh_OKC_Panel_07
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 69bb28d8e20124b42bd3787de422e059
+    m_Address: WTD_OKC_Panel_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6b2ca6adb419aea4bb5ac272794a90d8
+    m_Address: TPL_OKC_Curb
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 70f540dc771e36449b852b2b7ab3ca88
+    m_Address: TimelapseEnd_OKC
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 71ac46b118403194db8f9e3358896e79
+    m_Address: Preview_OKC
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 734cc6fad07aeee43b8593a101f03d49
+    m_Address: CM_OKC_Panel_05
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7af9adf5db6f54c40930d55195974ff6
+    m_Address: WTD_OKC_Panel_11
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 938a4198eef603846a76c0f53a0d4cfc
+    m_Address: MAT_OKC_Foliage
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 941ca9ff41d16054298208719380cba2
+    m_Address: WTD_OKC_Panel_06
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96c25d512603ba7498ae86f6aec7c9ea
+    m_Address: CM_OKC_Panel_08
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9dfe4b883e7925b4b9e2e7dcc0efc252
+    m_Address: MAT_OKC_CurbStone
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9e2afcdaf08c535408bc6ce39b2c70b6
+    m_Address: Mesh_OKC_Screen_Plinth
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a14c62c8c2b6b5249b40cb86d2006819
+    m_Address: MAT_OKC_Facade_C
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a1c447be5eacb6e4c837d9f95d8a25f8
+    m_Address: Loading_OKC
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a2314b5e967ef7f4b8f4499c797a50ba
+    m_Address: Mesh_OKC_Panel_08
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a627794a7f2724b40a01785008e38bed
+    m_Address: SKY_OKC_Dome
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: abc809660294eaa4aa3a640b15b318d5
+    m_Address: Mesh_OKC_Panel_03
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ad11bbbeadf8fbb46858d4bf779047bf
+    m_Address: CM_OKC_Panel_07
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: adcd36f590ecfb444b3a818b1256958a
+    m_Address: GAM_OKC_TransformerScreen
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: afdd50f4ff9c4604287abf467dccd354
+    m_Address: MAT_OKC_Metal
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b40b15530bb016846b5ecec428af18cb
+    m_Address: WTD_OKC_Panel_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b8561050e11c68d408dab4d8dffb8153
+    m_Address: WTD_OKC_Panel_07
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba1e6225adf69474b94b64863874d036
+    m_Address: CM_OKC_Panel_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c2d7b3bfaac641c4f9289c5761dfc9d6
+    m_Address: Thumbnail_OKC_A
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c44baf6f08ad6564399c66e50accdd62
+    m_Address: Mesh_OKC_Panel_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c552124c94dee3e4e82ddf1b35d674c8
+    m_Address: MAT_OKC_DarkMetal
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cbd9ffd8529293f44a866b6191b4d8ec
+    m_Address: CM_OKC_Panel_03
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cdaca11ef72df214bb586be0747ac8f6
+    m_Address: MAT_OKC_Sidewalk
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cec03d3c1efdd4c45a39d461ff501fbe
+    m_Address: WTD_OKC_Panel_10
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cf82fba83a8164c419eaf9cd2e62f4f9
+    m_Address: TPL_OKC
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d154570df6edf8647a0250744de088c8
+    m_Address: Mesh_OKC_Panel_10
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d5ee01fbf914e3c4a979ad59205776f4
+    m_Address: CM_OKC_Panel_13
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dd6111dc3381b0141a42636a88b012df
+    m_Address: CM_OKC_Screen_Plinth
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: deece846d64039849a1443ae2083f321
+    m_Address: MAT_OKC_Facade_B
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: df099d6837cf58b41a6504069acb6d74
+    m_Address: MAT_OKC_LampGlass
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e325ee0ed347d0d418e21c9ad0a70a9f
+    m_Address: WTD_OKC_Panel_04
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e697b12bbc02a7b4b8c66a209d95bf18
+    m_Address: ReflectionProbe_OKC
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ef6684d1f8ccf0b478eb4cf4f825214e
+    m_Address: WTD_OKC_Panel_13
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f1b60fd8ce27d9141908989f635871df
+    m_Address: Customer_OKC
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f5148243dd03b0c42943da52c48ab5dd
+    m_Address: MAT_OKC_Soil
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f5f6ba6cca5a5884fb620f0ea22b5a79
+    m_Address: WTD_OKC_Panel_14
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f607a709c71b2c44b929aa2fa67c250b
+    m_Address: WTD_OKC_Screen_Plinth
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6e2eedda3b29ac498338df2c5573a35
+    m_Address: CM_OKC_Panel_14
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fc12ed902e680d94494bfc7886675767
+    m_Address: WTD_OKC_Panel_08
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fce036a9d722a0f40a1a5b810395e742
+    m_Address: PPV_OKC
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: cac6b950c1463e248b2c0bbb2e714829, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: dac6b00c808e34e46802a3ea788a5f1e, type: 2}
+    - {fileID: 11400000, guid: 4347d4b72f1933e46a83797cdd3e846c, type: 2}

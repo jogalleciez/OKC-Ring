@@ -1,0 +1,242 @@
+{
+  "OKC_Panel_01": {
+    "file": "CM_OKC_Panel_01.png",
+    "resolution": 1024,
+    "startDirtiness": 264867,
+    "coveredTexels": 264867,
+    "layerTexels": [
+      92704,
+      264867,
+      30283
+    ],
+    "layerShare": [
+      0.35,
+      1.0,
+      0.1143
+    ]
+  },
+  "OKC_Panel_02": {
+    "file": "CM_OKC_Panel_02.png",
+    "resolution": 1024,
+    "startDirtiness": 265786,
+    "coveredTexels": 265786,
+    "layerTexels": [
+      93025,
+      265786,
+      84133
+    ],
+    "layerShare": [
+      0.35,
+      1.0,
+      0.3165
+    ]
+  },
+  "OKC_Panel_03": {
+    "file": "CM_OKC_Panel_03.png",
+    "resolution": 1024,
+    "startDirtiness": 265308,
+    "coveredTexels": 265308,
+    "layerTexels": [
+      92858,
+      265308,
+      54425
+    ],
+    "layerShare": [
+      0.35,
+      1.0,
+      0.2051
+    ]
+  },
+  "OKC_Panel_04": {
+    "file": "CM_OKC_Panel_04.png",
+    "resolution": 1024,
+    "startDirtiness": 266431,
+    "coveredTexels": 266431,
+    "layerTexels": [
+      93251,
+      266431,
+      80020
+    ],
+    "layerShare": [
+      0.35,
+      1.0,
+      0.3003
+    ]
+  },
+  "OKC_Panel_05": {
+    "file": "CM_OKC_Panel_05.png",
+    "resolution": 1024,
+    "startDirtiness": 266124,
+    "coveredTexels": 266124,
+    "layerTexels": [
+      93144,
+      266124,
+      81817
+    ],
+    "layerShare": [
+      0.35,
+      1.0,
+      0.3074
+    ]
+  },
+  "OKC_Panel_06": {
+    "file": "CM_OKC_Panel_06.png",
+    "resolution": 1024,
+    "startDirtiness": 265505,
+    "coveredTexels": 265505,
+    "layerTexels": [
+      92927,
+      265505,
+      47008
+    ],
+    "layerShare": [
+      0.35,
+      1.0,
+      0.1771
+    ]
+  },
+  "OKC_Panel_07": {
+    "file": "CM_OKC_Panel_07.png",
+    "resolution": 1024,
+    "startDirtiness": 265206,
+    "coveredTexels": 265206,
+    "layerTexels": [
+      92822,
+      265206,
+      41121
+    ],
+    "layerShare": [
+      0.35,
+      1.0,
+      0.1551
+    ]
+  },
+  "OKC_Panel_08": {
+    "file": "CM_OKC_Panel_08.png",
+    "resolution": 1024,
+    "startDirtiness": 266982,
+    "coveredTexels": 266982,
+    "layerTexels": [
+      93444,
+      266982,
+      46787
+    ],
+    "layerShare": [
+      0.35,
+      1.0,
+      0.1752
+    ]
+  },
+  "OKC_Panel_09": {
+    "file": "CM_OKC_Panel_09.png",
+    "resolution": 1024,
+    "startDirtiness": 268487,
+    "coveredTexels": 268487,
+    "layerTexels": [
+      93971,
+      268487,
+      84968
+    ],
+    "layerShare": [
+      0.35,
+      1.0,
+      0.3165
+    ]
+  },
+  "OKC_Panel_10": {
+    "file": "CM_OKC_Panel_10.png",
+    "resolution": 1024,
+    "startDirtiness": 267220,
+    "coveredTexels": 267220,
+    "layerTexels": [
+      93527,
+      267220,
+      80825
+    ],
+    "layerShare": [
+      0.35,
+      1.0,
+      0.3025
+    ]
+  },
+  "OKC_Panel_11": {
+    "file": "CM_OKC_Panel_11.png",
+    "resolution": 1024,
+    "startDirtiness": 265852,
+    "coveredTexels": 265852,
+    "layerTexels": [
+      93048,
+      265852,
+      93259
+    ],
+    "layerShare": [
+      0.35,
+      1.0,
+      0.3508
+    ]
+  },
+  "OKC_Panel_12": {
+    "file": "CM_OKC_Panel_12.png",
+    "resolution": 1024,
+    "startDirtiness": 266220,
+    "coveredTexels": 266220,
+    "layerTexels": [
+      93177,
+      266220,
+      82578
+    ],
+    "layerShare": [
+      0.35,
+      1.0,
+      0.3102
+    ]
+  },
+  "OKC_Panel_13": {
+    "file": "CM_OKC_Panel_13.png",
+    "resolution": 1024,
+    "startDirtiness": 262864,
+    "coveredTexels": 262864,
+    "layerTexels": [
+      92003,
+      262864,
+      25574
+    ],
+    "layerShare": [
+      0.35,
+      1.0,
+      0.0973
+    ]
+  },
+  "OKC_Panel_14": {
+    "file": "CM_OKC_Panel_14.png",
+    "resolution": 1024,
+    "startDirtiness": 266735,
+    "coveredTexels": 266735,
+    "layerTexels": [
+      93357,
+      266735,
+      54890
+    ],
+    "layerShare": [
+      0.35,
+      1.0,
+      0.2058
+    ]
+  },
+  "OKC_Screen_Plinth": {
+    "file": "CM_OKC_Screen_Plinth.png",
+    "resolution": 1024,
+    "startDirtiness": 445797,
+    "coveredTexels": 445797,
+    "layerTexels": [
+      445797,
+      243391,
+      55498
+    ],
+    "layerShare": [
+      1.0,
+      0.546,
+      0.1245
+    ]
+  }
+}

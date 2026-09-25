@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 468a46d0ae32c3544b7d98094e6448a9, type: 3}
+  m_Name: AddressableAssetSettings
+  m_EditorClassIdentifier: 
+  m_DefaultGroup: 30984a0fda00d8e4794795a21691121d
+  m_currentHash:
+    serializedVersion: 2
+    Hash: f0879744559fe8bd27036a7f08d92d7c
+  m_OptimizeCatalogSize: 0
+  m_BuildRemoteCatalog: 0
+  m_CatalogRequestsTimeout: 0
+  m_DisableCatalogUpdateOnStart: 1
+  m_InternalIdNamingMode: 0
+  m_InternalBundleIdMode: 1
+  m_AssetLoadMode: 0
+  m_BundledAssetProviderType:
+    m_AssemblyName: Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_ClassName: UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider
+  m_AssetBundleProviderType:
+    m_AssemblyName: Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+    m_ClassName: UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider
+  m_IgnoreUnsupportedFilesInBuild: 0
+  m_UniqueBundleIds: 1
+  m_EnableJsonCatalog: 0
+  m_NonRecursiveBuilding: 1
+  m_CCDEnabled: 0
+  m_maxConcurrentWebRequests: 3
+  m_UseUWRForLocalBundles: 0
+  m_BundleTimeout: 0
+  m_BundleRetryCount: 0
+  m_BundleRedirectLimit: -1
+  m_SharedBundleSettings: 0
+  m_SharedBundleSettingsCustomGroupIndex: 0
+  m_ContiguousBundles: 1
+  m_StripUnityVersionFromBundleBuild: 0
+  m_DisableVisibleSubAssetRepresentations: 0
+  m_BuiltInBundleNaming: 2
+  mBuiltInBundleCustomNaming: pws2pack_okc_streetcar
+  m_MonoScriptBundleNaming: 2
+  m_CheckForContentUpdateRestrictionsOption: 0
+  m_MonoScriptBundleCustomNaming: pws2pack_okc_streetcar
+  m_RemoteCatalogBuildPath:
+    m_Id: 
+  m_RemoteCatalogLoadPath:
+    m_Id: 
+  m_ContentStateBuildPathProfileVariableName: 
+  m_CustomContentStateBuildPath: 
+  m_ContentStateBuildPath: 
+  m_BuildAddressablesWithPlayerBuild: 0
+  m_overridePlayerVersion: '[UnityEditor.PlayerSettings.bundleVersion]'
+  m_GroupAssets:
+  - {fileID: 11400000, guid: 0edeafe0cb2ac974186e1b5fa054ba61, type: 2}
+  - {fileID: 11400000, guid: bb91ca91c1b78324aa69e1242877d710, type: 2}
+  - {fileID: 11400000, guid: 22cdac4dd42130844bce6f56999eb04a, type: 2}
+  - {fileID: 11400000, guid: a03cd2e412ec48e479c371f66ce920eb, type: 2}
+  - {fileID: 11400000, guid: b302391341ca24d4dab44be7501d39ab, type: 2}
+  - {fileID: 11400000, guid: 5b9ba16ab7dfef0438ca515896892362, type: 2}
+  m_BuildSettings:
+    m_LogResourceManagerExceptions: 1
+    m_BundleBuildPath: Temp/com.unity.addressables/AssetBundles
+  m_ProfileSettings:
+    m_Profiles:
+    - m_InheritedParent: 
+      m_Id: adb500845e6c5354f8ffa43a4ca3c714
+      m_ProfileName: Default
+      m_Values:
+      - m_Id: 0426bc45df2d1e7439ea89ad3c17a21e
+        m_Value: 'ServerData/[BuildTarget]'
+      - m_Id: 1c9257e13ad725b43b1aede438a0881f
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/[BuildTarget]'
+      - m_Id: 9b6ab034005a87740936d38f4a5cb9aa
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: d13fb8370e8d3454bbc9f30192ca6e45
+        m_Value: <undefined>
+      - m_Id: d7cc9997ca7845c4f9a43d30c700cade
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/[BuildTarget]'
+    - m_InheritedParent: 
+      m_Id: d69077939d11b6f4a94523ee6de9ab13
+      m_ProfileName: PWS2Pack
+      m_Values:
+      - m_Id: 0426bc45df2d1e7439ea89ad3c17a21e
+        m_Value: 'ServerData/[BuildTarget]'
+      - m_Id: 1c9257e13ad725b43b1aede438a0881f
+        m_Value: '[UnityEngine.AddressableAssets.Addressables.BuildPath]/PWS2Packs/OKC_Streetcar'
+      - m_Id: 9b6ab034005a87740936d38f4a5cb9aa
+        m_Value: '[UnityEditor.EditorUserBuildSettings.activeBuildTarget]'
+      - m_Id: d13fb8370e8d3454bbc9f30192ca6e45
+        m_Value: <undefined>
+      - m_Id: d7cc9997ca7845c4f9a43d30c700cade
+        m_Value: '{UnityEngine.AddressableAssets.Addressables.RuntimePath}/../../../Mods/PWS2LevelLoader/packs/OKC_Streetcar'
+    m_ProfileEntryNames:
+    - m_Id: 0426bc45df2d1e7439ea89ad3c17a21e
+      m_Name: Remote.BuildPath
+      m_InlineUsage: 0
+    - m_Id: 1c9257e13ad725b43b1aede438a0881f
+      m_Name: Local.BuildPath
+      m_InlineUsage: 0
+    - m_Id: 9b6ab034005a87740936d38f4a5cb9aa
+      m_Name: BuildTarget
+      m_InlineUsage: 0
+    - m_Id: d13fb8370e8d3454bbc9f30192ca6e45
+      m_Name: Remote.LoadPath
+      m_InlineUsage: 0
+    - m_Id: d7cc9997ca7845c4f9a43d30c700cade
+      m_Name: Local.LoadPath
+      m_InlineUsage: 0
+    m_ProfileVersion: 1
+  m_LabelTable:
+    m_LabelNames:
+    - default
+  m_SchemaTemplates: []
+  m_GroupTemplateObjects:
+  - {fileID: 11400000, guid: e6fd57745aced0f409b2e1c303152fcb, type: 2}
+  m_InitializationObjects: []
+  m_CertificateHandlerType:
+    m_AssemblyName: 
+    m_ClassName: 
+  m_ActivePlayerDataBuilderIndex: 2
+  m_DataBuilders:
+  - {fileID: 11400000, guid: 8317767ae95ea8d4e91625036a1f6eb2, type: 2}
+  - {fileID: 11400000, guid: 6e90736f33be2ca4c9160464997d92e9, type: 2}
+  - {fileID: 11400000, guid: 6a583f27551fb73499b434b530e0d9b8, type: 2}
+  m_ActiveProfileId: d69077939d11b6f4a94523ee6de9ab13

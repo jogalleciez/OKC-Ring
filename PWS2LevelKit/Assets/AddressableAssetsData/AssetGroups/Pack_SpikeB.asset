@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Pack_SpikeB
+  m_EditorClassIdentifier: 
+  m_GroupName: Pack_SpikeB
+  m_GUID: d0efb0025fcb8b341a62c4956ab67820
+  m_SerializeEntries:
+  - m_GUID: 048d03bc47bb84348b2219f03722a18a
+    m_Address: Customer_SpikeB
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6a9c4ad5f1f371b439b247f7dfaec692
+    m_Address: Job_SpikeB
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dd229902e6c7a2c47ae2ba50d01a4da6
+    m_Address: JobPackManifest_SpikeB
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e0486180a79fb1b409029bddebec1a39
+    m_Address: SWD_SpikeB
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: cac6b950c1463e248b2c0bbb2e714829, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: d931a4872d2397b43b5d7fe8e8a688f6, type: 2}
+    - {fileID: 11400000, guid: 4fc45062a70b78346b1948a3c8212861, type: 2}

@@ -1,0 +1,19 @@
+{
+  "name": "FuturLab.PW2.TexturePainter",
+  "rootNamespace": "",
+  "references": [
+    "FuturLab",
+    "FuturLab.PW2.WashGraphics",
+    "Unity.Addressables",
+    "Unity.ResourceManager"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

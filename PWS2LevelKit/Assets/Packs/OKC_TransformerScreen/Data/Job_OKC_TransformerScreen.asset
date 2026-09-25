@@ -1,0 +1,348 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 707ad5c55906c2f4eb92b7abae1d7a1c, type: 3}
+  m_Name: Job_OKC_TransformerScreen
+  m_EditorClassIdentifier: 
+  m_unlockedByDefault: 1
+  m_unlockRules: []
+  m_unlockRuleTargetIds: 
+  m_uniqueId: 1353403570
+  m_uniqueName: OKC_TRANSFORMER_SCREEN
+  m_availability:
+    Platform: -1
+    ReleaseType: -1
+    EditorModifier: 0
+  m_localizedName:
+    m_TableReference:
+      m_TableCollectionName: PWS2_Main
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: SCRIPT_CAREER_OKC_TRANSFORMER_SCREEN_TITLE
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_localizedDescription:
+    m_TableReference:
+      m_TableCollectionName: PWS2_Main
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: SCRIPT_CAREER_OKC_TRANSFORMER_SCREEN_DESCRIPTION
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  <CampaignID>k__BackingField: -782300793
+  m_saveSize: 2
+  m_timelapseQualityOverride:
+    Override: 0
+    Value:
+      <MaxPixelDiff>k__BackingField: 5
+      <MinPixelDiffCount>k__BackingField: 4
+  m_customer: {fileID: 11400000, guid: f1b60fd8ce27d9141908989f635871df, type: 2}
+  m_timelapseStaticThumbnail:
+    m_AssetGUID: 70f540dc771e36449b852b2b7ab3ca88
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_SubObjectGUID: 
+    m_EditorAssetChanged: 0
+  <IsTestJob>k__BackingField: 0
+  <Location>k__BackingField:
+    <SceneWashableData>k__BackingField: {fileID: 11400000, guid: 06484ccaa0a041f4d9c91f446f1530e7, type: 2}
+    <SceneName>k__BackingField: GAM_OKC_TransformerScreen
+    <LocalizedAddress>k__BackingField:
+      m_TableReference:
+        m_TableCollectionName: PWS2_Main
+      m_TableEntryReference:
+        m_KeyId: 0
+        m_Key: SCRIPT_CAREER_OKC_TRANSFORMER_SCREEN_ADDRESS
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    <SceneAssetReference>k__BackingField:
+      m_AssetGUID: adcd36f590ecfb444b3a818b1256958a
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    <SceneShaderCollectionAsset>k__BackingField:
+      m_AssetGUID: 9217f14022624204f9ea2c09bc96483e
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    <LocalizedLoadingInfo>k__BackingField:
+      m_TableReference:
+        m_TableCollectionName: PWS2_Main
+      m_TableEntryReference:
+        m_KeyId: 0
+        m_Key: SCRIPT_CAREER_OKC_TRANSFORMER_SCREEN_DESCRIPTION
+      m_FallbackState: 0
+      m_WaitForCompletion: 0
+      m_LocalVariables: []
+    <LocalizedInputActions>k__BackingField: []
+    <LoadingScreenImageAsset>k__BackingField:
+      m_AssetGUID: a1c447be5eacb6e4c837d9f95d8a25f8
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    <PreviewImageAsset>k__BackingField:
+      m_AssetGUID: 71ac46b118403194db8f9e3358896e79
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    <ChatImageAsset>k__BackingField:
+      m_AssetGUID: 1e6b9c97725d9ff45b8dca5d186907de
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    <SelectedThumbnailImageAsset>k__BackingField:
+      m_AssetGUID: c2d7b3bfaac641c4f9289c5761dfc9d6
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    <DeselectedThumbnailImageAsset>k__BackingField:
+      m_AssetGUID: 65af2364db7f7f845bc2ccb595abebf0
+      m_SubObjectName: 
+      m_SubObjectType: 
+      m_SubObjectGUID: 
+      m_EditorAssetChanged: 0
+    <AmbienceSoundEvent>k__BackingField:
+      Guid:
+        Data1: -1346477421
+        Data2: 1311386061
+        Data3: 870660996
+        Data4: 371991804
+    <MaxMapHeight>k__BackingField: 6
+    <HasWind>k__BackingField: 0
+    <HasReverb>k__BackingField: 0
+    <OverrideSoapGlobalConfig>k__BackingField: 0
+    <RuntimeSoapGlobalConfig>k__BackingField: {fileID: 0}
+    <CustomRenderProfile>k__BackingField: 0
+    <RuntimeRenderProfile>k__BackingField: {fileID: 0}
+    <RuntimeWetnessRenderProfile>k__BackingField: {fileID: 0}
+    <RuntimeSoapRenderProfile>k__BackingField: {fileID: 0}
+  m_stages:
+  - m_uniqueName: 
+    m_hideNameWhenLocked: 0
+    m_localizationKey: STAGE_OKC_TRANSFORMER_SCREEN_
+    m_tasks:
+    - m_isDefault: 1
+      m_washableObjectUniqueId: -1252864494
+      m_parentObjectUniqueId: 0
+      m_previousWashableObjectUniqueName: 
+      m_bonusPayment:
+        <Value>k__BackingField: 0
+      m_washTasks:
+        m_washTasks: []
+      m_washTaskList:
+      - m_washableComponentUniqueId: -216577884
+        m_payment:
+          <Value>k__BackingField: 100
+        m_localizationKey: WASHTASK_GAM_OKC_TRANSFORMERSCREEN_WASH_OKC_PANEL_01
+        m_componentLocalizationKey: WASHTASK_GAM_OKC_TRANSFORMERSCREEN_WASH_OKC_PANEL_01
+        m_componentGroupLocalizationKey: WASHTASK_GAM_OKC_TRANSFORMERSCREEN_WASH_OKC_PANEL_01_GROUP
+        m_superTaskLocalizationKey: 
+        m_parentWashableObjectUniqueId: -1252864494
+        m_superTaskName: 
+        m_superTaskWashTargetIds: 
+      - m_washableComponentUniqueId: -619862411
+        m_payment:
+          <Value>k__BackingField: 100
+        m_localizationKey: WASHTASK_GAM_OKC_TRANSFORMERSCREEN_WASH_OKC_PANEL_02
+        m_componentLocalizationKey: WASHTASK_GAM_OKC_TRANSFORMERSCREEN_WASH_OKC_PANEL_02
+        m_componentGroupLocalizationKey: WASHTASK_GAM_OKC_TRANSFORMERSCREEN_WASH_OKC_PANEL_02_GROUP
+        m_superTaskLocalizationKey: 
+        m_parentWashableObjectUniqueId: -1252864494
+        m_superTaskName: 
+        m_superTaskWashTargetIds: 
+      - m_washableComponentUniqueId: 946221530
+        m_payment:
+          <Value>k__BackingField: 100
+        m_localizationKey: WASHTASK_GAM_OKC_TRANSFORMERSCREEN_WASH_OKC_PANEL_03
+        m_componentLocalizationKey: WASHTASK_GAM_OKC_TRANSFORMERSCREEN_WASH_OKC_PANEL_03
+        m_componentGroupLocalizationKey: WASHTASK_GAM_OKC_TRANSFORMERSCREEN_WASH_OKC_PANEL_03_GROUP
+        m_superTaskLocalizationKey: 
+        m_parentWashableObjectUniqueId: -1252864494
+        m_superTaskName: 
+        m_superTaskWashTargetIds: 
+      - m_washableComponentUniqueId: 542937003
+        m_payment:
+          <Value>k__BackingField: 100
+        m_localizationKey: WASHTASK_GAM_OKC_TRANSFORMERSCREEN_WASH_OKC_PANEL_04
+        m_componentLocalizationKey: WASHTASK_GAM_OKC_TRANSFORMERSCREEN_WASH_OKC_PANEL_04
+        m_componentGroupLocalizationKey: WASHTASK_GAM_OKC_TRANSFORMERSCREEN_WASH_OKC_PANEL_04_GROUP
+        m_superTaskLocalizationKey: 
+        m_parentWashableObjectUniqueId: -1252864494
+        m_superTaskName: 
+        m_superTaskWashTargetIds: 
+      - m_washableComponentUniqueId: 2109020944
+        m_payment:
+          <Value>k__BackingField: 100
+        m_localizationKey: WASHTASK_GAM_OKC_TRANSFORMERSCREEN_WASH_OKC_PANEL_05
+        m_componentLocalizationKey: WASHTASK_GAM_OKC_TRANSFORMERSCREEN_WASH_OKC_PANEL_05
+        m_componentGroupLocalizationKey: WASHTASK_GAM_OKC_TRANSFORMERSCREEN_WASH_OKC_PANEL_05_GROUP
+        m_superTaskLocalizationKey: 
+        m_parentWashableObjectUniqueId: -1252864494
+        m_superTaskName: 
+        m_superTaskWashTargetIds: 
+      - m_washableComponentUniqueId: 1705736417
+        m_payment:
+          <Value>k__BackingField: 100
+        m_localizationKey: WASHTASK_GAM_OKC_TRANSFORMERSCREEN_WASH_OKC_PANEL_06
+        m_componentLocalizationKey: WASHTASK_GAM_OKC_TRANSFORMERSCREEN_WASH_OKC_PANEL_06
+        m_componentGroupLocalizationKey: WASHTASK_GAM_OKC_TRANSFORMERSCREEN_WASH_OKC_PANEL_06_GROUP
+        m_superTaskLocalizationKey: 
+        m_parentWashableObjectUniqueId: -1252864494
+        m_superTaskName: 
+        m_superTaskWashTargetIds: 
+      - m_washableComponentUniqueId: -1023146938
+        m_payment:
+          <Value>k__BackingField: 100
+        m_localizationKey: WASHTASK_GAM_OKC_TRANSFORMERSCREEN_WASH_OKC_PANEL_07
+        m_componentLocalizationKey: WASHTASK_GAM_OKC_TRANSFORMERSCREEN_WASH_OKC_PANEL_07
+        m_componentGroupLocalizationKey: WASHTASK_GAM_OKC_TRANSFORMERSCREEN_WASH_OKC_PANEL_07_GROUP
+        m_superTaskLocalizationKey: 
+        m_parentWashableObjectUniqueId: -1252864494
+        m_superTaskName: 
+        m_superTaskWashTargetIds: 
+      - m_washableComponentUniqueId: -1426431465
+        m_payment:
+          <Value>k__BackingField: 100
+        m_localizationKey: WASHTASK_GAM_OKC_TRANSFORMERSCREEN_WASH_OKC_PANEL_08
+        m_componentLocalizationKey: WASHTASK_GAM_OKC_TRANSFORMERSCREEN_WASH_OKC_PANEL_08
+        m_componentGroupLocalizationKey: WASHTASK_GAM_OKC_TRANSFORMERSCREEN_WASH_OKC_PANEL_08_GROUP
+        m_superTaskLocalizationKey: 
+        m_parentWashableObjectUniqueId: -1252864494
+        m_superTaskName: 
+        m_superTaskWashTargetIds: 
+      - m_washableComponentUniqueId: 139652476
+        m_payment:
+          <Value>k__BackingField: 100
+        m_localizationKey: WASHTASK_GAM_OKC_TRANSFORMERSCREEN_WASH_OKC_PANEL_09
+        m_componentLocalizationKey: WASHTASK_GAM_OKC_TRANSFORMERSCREEN_WASH_OKC_PANEL_09
+        m_componentGroupLocalizationKey: WASHTASK_GAM_OKC_TRANSFORMERSCREEN_WASH_OKC_PANEL_09_GROUP
+        m_superTaskLocalizationKey: 
+        m_parentWashableObjectUniqueId: -1252864494
+        m_superTaskName: 
+        m_superTaskWashTargetIds: 
+      - m_washableComponentUniqueId: -1782661826
+        m_payment:
+          <Value>k__BackingField: 100
+        m_localizationKey: WASHTASK_GAM_OKC_TRANSFORMERSCREEN_WASH_OKC_PANEL_10
+        m_componentLocalizationKey: WASHTASK_GAM_OKC_TRANSFORMERSCREEN_WASH_OKC_PANEL_10
+        m_componentGroupLocalizationKey: WASHTASK_GAM_OKC_TRANSFORMERSCREEN_WASH_OKC_PANEL_10_GROUP
+        m_superTaskLocalizationKey: 
+        m_parentWashableObjectUniqueId: -1252864494
+        m_superTaskName: 
+        m_superTaskWashTargetIds: 
+      - m_washableComponentUniqueId: -216577885
+        m_payment:
+          <Value>k__BackingField: 100
+        m_localizationKey: WASHTASK_GAM_OKC_TRANSFORMERSCREEN_WASH_OKC_PANEL_11
+        m_componentLocalizationKey: WASHTASK_GAM_OKC_TRANSFORMERSCREEN_WASH_OKC_PANEL_11
+        m_componentGroupLocalizationKey: WASHTASK_GAM_OKC_TRANSFORMERSCREEN_WASH_OKC_PANEL_11_GROUP
+        m_superTaskLocalizationKey: 
+        m_parentWashableObjectUniqueId: -1252864494
+        m_superTaskName: 
+        m_superTaskWashTargetIds: 
+      - m_washableComponentUniqueId: -619862412
+        m_payment:
+          <Value>k__BackingField: 100
+        m_localizationKey: WASHTASK_GAM_OKC_TRANSFORMERSCREEN_WASH_OKC_PANEL_12
+        m_componentLocalizationKey: WASHTASK_GAM_OKC_TRANSFORMERSCREEN_WASH_OKC_PANEL_12
+        m_componentGroupLocalizationKey: WASHTASK_GAM_OKC_TRANSFORMERSCREEN_WASH_OKC_PANEL_12_GROUP
+        m_superTaskLocalizationKey: 
+        m_parentWashableObjectUniqueId: -1252864494
+        m_superTaskName: 
+        m_superTaskWashTargetIds: 
+      - m_washableComponentUniqueId: 946221529
+        m_payment:
+          <Value>k__BackingField: 100
+        m_localizationKey: WASHTASK_GAM_OKC_TRANSFORMERSCREEN_WASH_OKC_PANEL_13
+        m_componentLocalizationKey: WASHTASK_GAM_OKC_TRANSFORMERSCREEN_WASH_OKC_PANEL_13
+        m_componentGroupLocalizationKey: WASHTASK_GAM_OKC_TRANSFORMERSCREEN_WASH_OKC_PANEL_13_GROUP
+        m_superTaskLocalizationKey: 
+        m_parentWashableObjectUniqueId: -1252864494
+        m_superTaskName: 
+        m_superTaskWashTargetIds: 
+      - m_washableComponentUniqueId: 542937002
+        m_payment:
+          <Value>k__BackingField: 100
+        m_localizationKey: WASHTASK_GAM_OKC_TRANSFORMERSCREEN_WASH_OKC_PANEL_14
+        m_componentLocalizationKey: WASHTASK_GAM_OKC_TRANSFORMERSCREEN_WASH_OKC_PANEL_14
+        m_componentGroupLocalizationKey: WASHTASK_GAM_OKC_TRANSFORMERSCREEN_WASH_OKC_PANEL_14_GROUP
+        m_superTaskLocalizationKey: 
+        m_parentWashableObjectUniqueId: -1252864494
+        m_superTaskName: 
+        m_superTaskWashTargetIds: 
+      - m_washableComponentUniqueId: 1551081098
+        m_payment:
+          <Value>k__BackingField: 200
+        m_localizationKey: WASHTASK_GAM_OKC_TRANSFORMERSCREEN_WASH_OKC_SCREEN_PLINTH
+        m_componentLocalizationKey: WASHTASK_GAM_OKC_TRANSFORMERSCREEN_WASH_OKC_SCREEN_PLINTH
+        m_componentGroupLocalizationKey: WASHTASK_GAM_OKC_TRANSFORMERSCREEN_WASH_OKC_SCREEN_PLINTH_GROUP
+        m_superTaskLocalizationKey: 
+        m_parentWashableObjectUniqueId: -1252864494
+        m_superTaskName: 
+        m_superTaskWashTargetIds: 
+      m_washTaskCount: 15
+      m_TaskUniqueName: OKC_SCREEN_TASK
+      m_localizationKey: TASK_OKC_TRANSFORMER_SCREEN_MAIN
+    m_delayLoadingWashMaps: 0
+  m_bonusTasks: []
+  m_completionPayment:
+    <Value>k__BackingField: 2500
+  m_completionPaymentSecondary:
+    <Value>k__BackingField: 150
+  m_useLoadout: 0
+  m_loadout:
+    m_entries: []
+  <CustomizationDisabled>k__BackingField: 0
+  m_levelDevelopmentStage: 2
+  m_allMessageSequences: []
+  <BriefMessageSequence>k__BackingField: {fileID: 0}
+  <CompletionMessageSequence>k__BackingField: {fileID: 0}
+  m_stringTableName: PWS2_Main
+  m_localizationId: 
+  m_localizedFreePlayInteraction:
+    m_TableReference:
+      m_TableCollectionName: 
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_storyNameInteraction:
+    m_TableReference:
+      m_TableCollectionName: PWS2_Main
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: HOMEBASE_OKC_TRANSFORMER_SCREEN_STORY
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_freePlayNameInteraction:
+    m_TableReference:
+      m_TableCollectionName: PWS2_Main
+    m_TableEntryReference:
+      m_KeyId: 0
+      m_Key: HOMEBASE_OKC_TRANSFORMER_SCREEN_FREEPLAY
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  references:
+    version: 2
+    RefIds: []

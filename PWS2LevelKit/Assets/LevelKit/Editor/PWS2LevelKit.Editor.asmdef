@@ -1,0 +1,31 @@
+{
+  "name": "PWS2LevelKit.Editor",
+  "rootNamespace": "PWS2LevelKit.Editor",
+  "references": [
+    "FuturLab",
+    "FuturLab.PW2",
+    "FuturLab.PW2.Core",
+    "FuturLab.PW2.GameContent",
+    "FuturLab.PW2.TexturePainter",
+    "FuturLab.PW2.WashGraphics",
+    "FMODUnity",
+    "Unity.Addressables",
+    "Unity.Addressables.Editor",
+    "Unity.ResourceManager",
+    "Unity.Localization",
+    "Unity.InputSystem",
+    "Unity.RenderPipelines.Core.Runtime",
+    "Unity.RenderPipelines.Universal.Runtime"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

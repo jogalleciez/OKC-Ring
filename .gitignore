@@ -1,0 +1,18 @@
+# .NET
+PWS2LevelLoader/bin/
+PWS2LevelLoader/obj/
+
+# Unity project (PWS2LevelKit)
+PWS2LevelKit/[Ll]ibrary/
+PWS2LevelKit/[Tt]emp/
+PWS2LevelKit/[Oo]bj/
+PWS2LevelKit/[Bb]uild/
+PWS2LevelKit/[Bb]uilds/
+PWS2LevelKit/[Ll]ogs/
+PWS2LevelKit/[Uu]ser[Ss]ettings/
+PWS2LevelKit/[Mm]emoryCaptures/
+PWS2LevelKit/ServerData/
+PWS2LevelKit/*.csproj
+PWS2LevelKit/*.sln
+PWS2LevelKit/*.slnx
+PWS2LevelKit/.vsconfig

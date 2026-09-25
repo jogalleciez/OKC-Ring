@@ -1,0 +1,171 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e898a7299542c641a76844168c499c0, type: 3}
+  m_Name: SWD_OKC_Streetcar
+  m_EditorClassIdentifier: 
+  m_washableObjects:
+  - m_name: PWS_OKC_Root
+    m_uniqueId: -1134888441
+    m_parentId: 0
+    m_fullName: '[GAM_PW2_HS_Tram]PWS_OKC_Root'
+    m_componentUniqueIds: 3d8b5cfe0ee952e67374ab4344d2a12ba95dfa887abbf070df4649ce005bc88b65e620e9d9ff03a13e8b5cfe0fe952e67474ab4345d2a12b71f9de13
+  m_washableComponents:
+  - m_name: OKC_Panel_01
+    m_uniqueId: -27489475
+    m_parentObjectUniqueId: -1134888441
+    m_superTaskName: 
+    m_isSuperTaskMember: 0
+    m_superTaskIds: 
+    m_startDirtiness: 264867
+    m_groupComponentUniqueIds: 3d8b5cfe
+    m_groupIndex: 0
+    m_cleanName: Panel 1
+  - m_name: OKC_Panel_02
+    m_uniqueId: -430774002
+    m_parentObjectUniqueId: -1134888441
+    m_superTaskName: 
+    m_isSuperTaskMember: 0
+    m_superTaskIds: 
+    m_startDirtiness: 265786
+    m_groupComponentUniqueIds: 0ee952e6
+    m_groupIndex: 0
+    m_cleanName: Panel 2
+  - m_name: OKC_Panel_03
+    m_uniqueId: 1135309939
+    m_parentObjectUniqueId: -1134888441
+    m_superTaskName: 
+    m_isSuperTaskMember: 0
+    m_superTaskIds: 
+    m_startDirtiness: 265308
+    m_groupComponentUniqueIds: 7374ab43
+    m_groupIndex: 0
+    m_cleanName: Panel 3
+  - m_name: OKC_Panel_04
+    m_uniqueId: 732025412
+    m_parentObjectUniqueId: -1134888441
+    m_superTaskName: 
+    m_isSuperTaskMember: 0
+    m_superTaskIds: 
+    m_startDirtiness: 266431
+    m_groupComponentUniqueIds: 44d2a12b
+    m_groupIndex: 0
+    m_cleanName: Panel 4
+  - m_name: OKC_Panel_05
+    m_uniqueId: -1996857943
+    m_parentObjectUniqueId: -1134888441
+    m_superTaskName: 
+    m_isSuperTaskMember: 0
+    m_superTaskIds: 
+    m_startDirtiness: 266124
+    m_groupComponentUniqueIds: a95dfa88
+    m_groupIndex: 0
+    m_cleanName: Panel 5
+  - m_name: OKC_Panel_06
+    m_uniqueId: 1894824826
+    m_parentObjectUniqueId: -1134888441
+    m_superTaskName: 
+    m_isSuperTaskMember: 0
+    m_superTaskIds: 
+    m_startDirtiness: 265505
+    m_groupComponentUniqueIds: 7abbf070
+    m_groupIndex: 0
+    m_cleanName: Panel 6
+  - m_name: OKC_Panel_07
+    m_uniqueId: -834058529
+    m_parentObjectUniqueId: -1134888441
+    m_superTaskName: 
+    m_isSuperTaskMember: 0
+    m_superTaskIds: 
+    m_startDirtiness: 265206
+    m_groupComponentUniqueIds: df4649ce
+    m_groupIndex: 0
+    m_cleanName: Panel 7
+  - m_name: OKC_Panel_08
+    m_uniqueId: -1949803776
+    m_parentObjectUniqueId: -1134888441
+    m_superTaskName: 
+    m_isSuperTaskMember: 0
+    m_superTaskIds: 
+    m_startDirtiness: 266982
+    m_groupComponentUniqueIds: 005bc88b
+    m_groupIndex: 0
+    m_cleanName: Panel 8
+  - m_name: OKC_Panel_09
+    m_uniqueId: -383719835
+    m_parentObjectUniqueId: -1134888441
+    m_superTaskName: 
+    m_isSuperTaskMember: 0
+    m_superTaskIds: 
+    m_startDirtiness: 268487
+    m_groupComponentUniqueIds: 65e620e9
+    m_groupIndex: 0
+    m_cleanName: Panel 9
+  - m_name: OKC_Panel_10
+    m_uniqueId: -1593573415
+    m_parentObjectUniqueId: -1134888441
+    m_superTaskName: 
+    m_isSuperTaskMember: 0
+    m_superTaskIds: 
+    m_startDirtiness: 267220
+    m_groupComponentUniqueIds: d9ff03a1
+    m_groupIndex: 0
+    m_cleanName: Panel 10
+  - m_name: OKC_Panel_11
+    m_uniqueId: -27489474
+    m_parentObjectUniqueId: -1134888441
+    m_superTaskName: 
+    m_isSuperTaskMember: 0
+    m_superTaskIds: 
+    m_startDirtiness: 265852
+    m_groupComponentUniqueIds: 3e8b5cfe
+    m_groupIndex: 0
+    m_cleanName: Panel 11
+  - m_name: OKC_Panel_12
+    m_uniqueId: -430774001
+    m_parentObjectUniqueId: -1134888441
+    m_superTaskName: 
+    m_isSuperTaskMember: 0
+    m_superTaskIds: 
+    m_startDirtiness: 266220
+    m_groupComponentUniqueIds: 0fe952e6
+    m_groupIndex: 0
+    m_cleanName: Panel 12
+  - m_name: OKC_Panel_13
+    m_uniqueId: 1135309940
+    m_parentObjectUniqueId: -1134888441
+    m_superTaskName: 
+    m_isSuperTaskMember: 0
+    m_superTaskIds: 
+    m_startDirtiness: 262864
+    m_groupComponentUniqueIds: 7474ab43
+    m_groupIndex: 0
+    m_cleanName: Panel 13
+  - m_name: OKC_Panel_14
+    m_uniqueId: 732025413
+    m_parentObjectUniqueId: -1134888441
+    m_superTaskName: 
+    m_isSuperTaskMember: 0
+    m_superTaskIds: 
+    m_startDirtiness: 266735
+    m_groupComponentUniqueIds: 45d2a12b
+    m_groupIndex: 0
+    m_cleanName: Panel 14
+  - m_name: OKC_Screen_Plinth
+    m_uniqueId: 333379953
+    m_parentObjectUniqueId: -1134888441
+    m_superTaskName: 
+    m_isSuperTaskMember: 0
+    m_superTaskIds: 
+    m_startDirtiness: 445797
+    m_groupComponentUniqueIds: 71f9de13
+    m_groupIndex: 0
+    m_cleanName: Curb
