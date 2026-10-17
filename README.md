@@ -1,6 +1,6 @@
 # OKC Ring
 
-The ring in downtown OKC... You know the one.
+A Powerwash Simulator 2 mod featuring the ring in downtown OKC. You know the one....
 
 ![The OKC transformer screen on its plaza, in game](PWS2LevelKit/Assets/Packs/OKC_TransformerScreen/UI/Preview_OKC.png)
 
