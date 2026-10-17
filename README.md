@@ -1,78 +1,84 @@
-# PowerWash Simulator 2 — custom level mod (OKC Transformer Screen)
+# OKC Ring
 
-A MelonLoader mod that adds a standalone level (a career job that unlocks in Free Play once completed) to PowerWash Simulator 2:
-the perforated "OKC" transformer screen from downtown Oklahoma City on a small plaza.
+The ring in downtown OKC... You know the one.
 
-The mod is built the way the game's own DLC is built: a Unity Addressables **content pack**
-(`JobPackManifest` → `GameJob` → scene + `SceneWashableData`) plus a thin loader DLL
-(`PWS2LevelLoader`) that registers the pack with the game's campaign at boot.
+![The OKC transformer screen on its plaza, in game](PWS2LevelKit/Assets/Packs/OKC_TransformerScreen/UI/Preview_OKC.png)
 
-| Folder | What it is |
-| --- | --- |
-| `OKC_TransformerScreen/` | Procedural Blender build of the prop (FBX/GLB, dirt-mask UVs, verify script) |
-| `PWS2LevelLoader/` | MelonLoader mod (C#, net6.0). Phase 0 ships the reconnaissance dumper (F6/F7/F8). |
-| `PWS2LevelKit/` | Unity 6000.0.73f1 project with stub game types and the pack build tooling (Phase 1+) |
-| `docs/` | Handoff, spike log, Streetcar variant, stub-field export (shared game docs are in [`../docs/`](../docs/)) |
-| `dist/` | Zip layout for Nexus / GitHub Releases (build output, not committed) |
+A PowerWash Simulator 2 mod that brings the perforated steel ring around the transformer at NW 4th & Robinson,
+Oklahoma City (the one stencilled with O, K and C) into the game as something to wash.
 
-## Build the loader
+- **OKC Transformer Screen**: a new career job on its own downtown plaza. 14 panels and the curb, under layered
+  grime, mud splats and rust. Finish it and it unlocks in Free Play.
+- **OKC Screen on Equinox Boulevard**: a second job that puts the ring on the game's own Streetcar street, in place
+  of the tram. The vanilla Streetcar job is untouched.
 
-Commands in this file run from `OKCRing/`.
+## Requirements
 
-Requires the .NET 8 SDK and the game with MelonLoader 0.7.x installed (the csproj references
-the generated `MelonLoader/Il2CppAssemblies`). The build copies the DLL into the game's `Mods/`.
+- PowerWash Simulator 2 **v1.3.1** on Steam. Packs built for another game version are skipped (see Troubleshooting).
+- [MelonLoader](https://github.com/LavaGang/MelonLoader) **0.7.x** installed into the game.
 
-```bash
-dotnet build PWS2LevelLoader -c Release
-```
+## Install
 
-Different game path: `dotnet build PWS2LevelLoader -c Release -p:GameDir="D:\Games\PowerWash Simulator 2"`.
-Skip the copy: `-p:CopyToGame=false`.
+1. Install MelonLoader into PowerWash Simulator 2 and start the game once, so it generates its files.
+2. Download `OKC-Ring-v0.1.0.zip` from [Releases](../../releases).
+3. Extract it into the game folder (Steam: right-click the game → Manage → Browse local files). You should end up with:
 
-## Debug keys and automation (Phase 0)
+   ```
+   PowerWash Simulator 2/
+     Mods/
+       PWS2LevelLoader.dll
+       PWS2LevelLoader/packs/OKC_TransformerScreen/
+       PWS2LevelLoader/packs/OKC_Streetcar/
+   ```
 
-Enabled by `EnableDebugKeys` in `UserData/MelonPreferences.cfg` (on by default until release).
-Output goes to `UserData/PWS2LevelLoader/dumps/`.
+4. Start the game. Both jobs appear in the career job list, from the customer "Downtown Utilities".
 
-| Key | Dump |
-| --- | --- |
-| F7 | Hierarchy of every loaded scene: components, `UniqueId`s, `WashTarget` data, spawn points, mesh UV channels, materials, layer table, shader property tables |
-| F8 | Game data: manifest, campaigns, content packs, job packs, all jobs, the current job in full, wash data assets, cheat-menu buttons, localization tables |
-| F6 | Control maps: PNG readback of each `WashTarget`'s runtime control map (first 8), wash/effect map RTs (first 2), and the wash-target CSV |
-| F9 | Every Addressables location as TSV (opt-in: drives the binary catalog reader through interop) |
-| F5 | Spike A: load the `SpikeA` pack scene additively and verify the stub components |
-| F10 | Lighting (RenderSettings, lights, probes, URP volumes, cameras), a screenshot, and the current job's Location sprites as PNG |
+## Uninstall
 
-Always-on diagnostics in `MelonLoader/Latest.log`: `[state]` lines trace the game's state machine and print the
-exception of a faulted loading state (the game itself only shows "An error occurred when loading"); `[hubload]`
-marks the hub load steps; at hub time `JobHealth[...]`, `JobStatus[...]` and the campaign's loaded-manifest keys
-are logged for every pack job.
+Delete `Mods/PWS2LevelLoader.dll` and the `Mods/PWS2LevelLoader/` folder. Your save keeps the rest of your
+progress.
 
-Unattended runs: set in `[PWS2LevelLoader]` of `UserData/MelonPreferences.cfg` and launch via
-`steam://rungameid/2968420` (launching the exe directly drops command-line switches).
+## Troubleshooting
 
-```toml
-AutoDump = true              # dump every GAM_* scene 12 s after it initialises
-AutoDumpDelaySeconds = 12.0
-AutoRunCheat = "Billboard"   # after the hub dump, press this cheat-menu button (Scenes category = one per job)
-AutoQuitAfterDumps = 2       # quit after N dumps (hub + job)
-AutoSpike = ""               # "A", "M", "G" (comma list): run these spikes in the hub, dump, quit
-RegisterPacks = true         # false = load nothing into the campaign (diagnostics only)
-AutoResetPackTargets = false # dev: put the dirt back on a pack level's wash targets a few s after it loads (session only)
-SceneAdditionOverride = ""   # dev: "x,y,z[,yaw]" places a pack's scene addition there instead of its pack.json position
-```
+The log is `MelonLoader/Latest.log` in the game folder. Lines from this mod start with `[PWS2_Level_Loader]`.
 
-`AutoRunCheat` accepts alternatives separated by `|` (pack jobs' buttons carry the title key, e.g.
-`"Spike B Billboard|SCRIPT_CAREER_SPIKEB_TITLE"`). If the hub reloads 6 times during an automated run the loader
-dumps and quits instead of looping forever.
+- **The jobs don't show up.** Look for `Skipping pack ... built for game X, running Y`: the game has updated
+  since the packs were built. Wait for an updated release, or set `IgnoreGameVersion = true` under
+  `[PWS2LevelLoader]` in `UserData/MelonPreferences.cfg` at your own risk.
+- **"An error occurred when loading".** The log has a `[state]` line with the real exception. Please open an issue
+  with your `Latest.log` attached.
+- **The game crashes when you quit.** That is MelonLoader's console, not this mod: set `hide_console = true` in
+  `UserData/Loader.cfg`.
 
-Findings distilled from the dumps: [../docs/phase0-findings.md](../docs/phase0-findings.md).
+## Status
 
-## A pack job on one of the game's own levels
+Version 0.1.0, tested on game v1.3.1 with automated runs: every panel loads with its dirt, washes to clean,
+completes the job and unlocks Free Play, and progress survives a relaunch. Hands-on washing with starter gear
+hasn't been played through end to end yet, so feedback on difficulty is welcome. Single player only.
 
-Pack `OKC_Streetcar` puts the ring into the game's Streetcar street (`GAM_PW2_HS_Tram`) in place of the tram, as a
-separate job ("OKC Screen on Equinox Boulevard"); the vanilla Streetcar job is untouched. The job's `pack.json` lists
-`sceneAdditions` (prefabs from the pack), `hideWashRoots` / `hideObjects` / `hideContainedIn` (what to switch off), and
-the loader applies them only when that job is the one loading. Build it with
-`-executeMethod PWS2LevelKit.Editor.OkcStreetcarPack.CreateAndBuildFromCommandLine` (`-nographics` is fine).
-How and why: [docs/streetcar-variant.md](docs/streetcar-variant.md).
+## Building from source
+
+Three parts, each with its own toolchain:
+
+| Folder | Toolchain | Role |
+| --- | --- | --- |
+| `OKC_TransformerScreen/` | Blender 5.1, Python | Generates the ring and plaza meshes and their dirt masks |
+| `PWS2LevelKit/` | Unity 6000.0.73f1 (URP, Addressables) | Authors the levels against stub game types and builds the content packs |
+| `PWS2LevelLoader/` | .NET 8 SDK | The MelonLoader mod that registers the packs with the game's campaign |
+
+Build steps, debug keys and automation: [docs/development.md](docs/development.md). How the game defines a level
+(hashing, content packs, wash targets, control maps): [docs/phase0-findings.md](docs/phase0-findings.md).
+
+## Credits
+
+- The real ring belongs to Oklahoma City; this is a fan-made, simplified model of it.
+- PowerWash Simulator 2 is by FuturLab. This mod is unofficial and not affiliated with or endorsed by FuturLab.
+  The stub types in `PWS2LevelKit/Assets/Stubs/` mirror the game's serialized field layout so Unity can build
+  compatible packs; they contain no game code.
+- Built on [MelonLoader](https://github.com/LavaGang/MelonLoader) and [HarmonyX](https://github.com/BepInEx/HarmonyX).
+- Made with help from Claude Code (Anthropic's Claude), which wrote much of the code, the Blender scripts and
+  the docs alongside the author.
+
+## License
+
+[MIT](LICENSE).

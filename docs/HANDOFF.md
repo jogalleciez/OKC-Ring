@@ -5,13 +5,13 @@ Updated 2026-09-24 for the next session. **The game auto-updated to 1.3.1 on 202
 (see Hard-won rules).
 
 **Paths below are relative to `OKCRing/`** (the mod moved there from the repo root on 2026-09-24 to make room
-for other mods). Shared game docs are one level up in `../docs/`.
+for other mods). Shared game docs are copied into `docs/` (source: the monorepo's `../docs/`).
 
 Read in this order:
 
-1. The approved plan: `C:\Users\jogal\.claude\plans\powerwash-simulator-2-level-reflective-treehouse.md`
+1. The approved plan (kept outside the repo, in the author's Claude Code plans folder)
    (Phases 0–4, decisions: native Addressables content pack + thin MelonLoader loader, one Nexus page, minimal plaza).
-2. `../docs/phase0-findings.md` — how the game defines a level (types, hashes, UV channels, control maps, keys). Verified in-game.
+2. `docs/phase0-findings.md` — how the game defines a level (types, hashes, UV channels, control maps, keys). Verified in-game.
 3. `docs/phase1-spikes.md` — toolchain + spike log: every dead end, its root cause, the pack-build rules, and the
    `GameplayBoot` requirement. Read the Spike C section before authoring any scene.
 4. This file — exact state and the next actions.
@@ -98,7 +98,7 @@ Plan sections "Phase 2 — Content" steps 1–8. Order that matches what is now 
 ```bash
 # sanity
 tasklist | grep -i "PowerWash Simulator 2.exe"
-cd "C:/Users/jogal/OneDrive/Documents/GitHub/Mods/Powerwash Simulator 2/OKCRing"
+cd OKCRing
 dotnet build PWS2LevelLoader -c Debug          # copies DLL to <game>/Mods
 ```
 
@@ -166,8 +166,8 @@ Before handing the game back for normal play: `AutoDump=false`, `AutoRunCheat=""
   Enumerating the binary catalog via `Locate` crashed; use `AllLocations`.
 - Free Play for a job unlocks only after its career run is completed — that is a game rule, not a registration bug.
 - Tools: the Bash tool runs through `eval` (single quotes inside heredocs break it; use the Write tool for such files;
-  commands over ~8 KB are truncated). Run `../docs/tools/dump_types.ps1` in-process from the PowerShell tool
-  (`& ../docs/tools/dump_types.ps1 -Types A,B -MethodRegex '...'`), not via `pwsh -File`. `Remove-Item` under
+  commands over ~8 KB are truncated). Run `docs/tools/dump_types.ps1` in-process from the PowerShell tool
+  (`& docs/tools/dump_types.ps1 -Types A,B -MethodRegex '...'`), not via `pwsh -File`. `Remove-Item` under
   Program Files is blocked by the tool guard; use bash `rm -rf`.
 - Unity headless runs: do not add scripts to `PWS2LevelKit/Assets` while a batch build is running (mid-run domain reload).
 - Unity CLI cannot create a project from this editor's local template ids; use `Unity.exe -createProject … -cloneFromTemplate <tgz>`.
@@ -183,20 +183,21 @@ Before handing the game back for normal play: `AutoDump=false`, `AutoRunCheat=""
 | Debug keys in game | F7 scene dump, F8 game data dump, F6 control maps, F9 Addressables locations (opt-in), F5 Spike A (needs `SpikeA` installed) |
 | Dumps | `<game>/UserData/PWS2LevelLoader/dumps/` — pruned on 2026-09-24 to the latest run (`20260924-1227*`, Streetcar). Any automated run writes a new set. |
 | Unity | `C:\Program Files\Unity\Hub\Editor\6000.0.73f1\Editor\Unity.exe`; CLI `unity` on PATH (1.0.0-beta.8) |
-| Type dumps | `& ../docs/tools/dump_types.ps1 -Types GameJob,Location …` (Mono.Cecil from `MelonLoader/net6`) |
+| Type dumps | `& docs/tools/dump_types.ps1 -Types GameJob,Location …` (Mono.Cecil from `MelonLoader/net6`) |
 | Blender | 5.1.2 at `C:\Program Files\Blender Foundation\Blender 5.1\blender.exe`; prop scripts in `OKC_TransformerScreen/` |
 
 ## Repo map
 
 ```
-../docs/phase0-findings.md         game data model (verified), shared with the repo's other mods
-../docs/tools/dump_types.ps1       Cecil type dumper, shared
 OKCRing/                           this mod; everything below is relative to it
-README.md                          overview, build, debug keys, automation prefs
+README.md                          player-facing overview, install, troubleshooting
+docs/development.md                build, debug keys, automation prefs
 CLAUDE.md                          mod-specific guidance (repo-wide rules in ../CLAUDE.md)
 docs/phase1-spikes.md              spike log: pack-build rules, hub-loop root cause, GameplayBoot requirement
 docs/streetcar-variant.md          OKC ring on the game's Streetcar scene
 docs/HANDOFF.md                    this file
+docs/phase0-findings.md            game data model (verified); copy of the monorepo's ../docs/
+docs/tools/dump_types.ps1          Cecil type dumper; copy of the monorepo's ../docs/tools/
 docs/tools/export_stub_fields.ps1  re-export stub-fields.json after a game update (PackValidator reads it)
 PWS2LevelLoader/                   MelonLoader mod
   src/Core.cs                      entry, prefs, automation (AutoDump/AutoSpike/second cheat/loop guard/RequestQuit)

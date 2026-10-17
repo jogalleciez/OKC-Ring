@@ -67,7 +67,7 @@ namespace PWS2LevelLoader
             Instance = this;
 
             Prefs = MelonPreferences.CreateCategory("PWS2LevelLoader", "PWS2 Level Loader");
-            EnableDebugKeys = Prefs.CreateEntry("EnableDebugKeys", true,
+            EnableDebugKeys = Prefs.CreateEntry("EnableDebugKeys", false,
                 description: "Enable the F6/F7/F8 dump keys (writes to UserData/PWS2LevelLoader/dumps). Turn off for normal play.");
             IgnoreGameVersion = Prefs.CreateEntry("IgnoreGameVersion", false,
                 description: "Load packs even if their gameVersion does not match the running game.");

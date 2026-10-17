@@ -3,8 +3,9 @@
 This file provides guidance to Claude Code (claude.ai/code) when working in `OKCRing/`. Repo-wide rules
 (game environment, MelonLoader/IL2CPP rules, tool gotchas) are in the root `../CLAUDE.md`.
 
-**All paths and commands below are relative to `OKCRing/`** (`cd OKCRing` first). Shared game docs live
-one level up in `../docs/`.
+**All paths and commands below are relative to `OKCRing/`** (`cd OKCRing` first). `docs/phase0-findings.md` and
+`docs/tools/dump_types.ps1` are copies of the monorepo's shared `../docs/` (the source of truth), so the
+published OKC-Ring repo is self-contained; refresh them before publishing.
 
 ## Read first
 
@@ -12,12 +13,12 @@ one level up in `../docs/`.
 game folder, what the next actions are) and it lists the hard-won rules in full. Read it before
 touching anything. The other sources of truth:
 
-- `../docs/phase0-findings.md` — how PWS2 v1.3.0 defines a level: `UniqueId` hashing, content-pack
+- `docs/phase0-findings.md` — how PWS2 v1.3.0 defines a level: `UniqueId` hashing, content-pack
   registration, `JobPackManifest`/`GameJob`/`SceneWashableData`/`WashTarget` layout, control-map/UV2
   rules, localization keys. Verified in-game.
 - `docs/phase1-spikes.md` — spike log: pack-build rules, the hub-reload-loop root cause, the
   `GameplayBoot` requirement. Read the Spike C section before authoring a scene.
-- The approved plan: `C:\Users\jogal\.claude\plans\powerwash-simulator-2-level-reflective-treehouse.md`.
+- The approved plan (kept outside the repo, in the author's Claude Code plans folder).
 
 ## What this mod is
 
@@ -74,7 +75,21 @@ Regenerate the prop, then verify (`VERIFY: PASS` is the gate):
 field names against `docs/tools/stub-fields.json`. After a game update, re-export that file in-process with
 `& docs/tools/export_stub_fields.ps1 -GameVersion <ver>` and commit it.
 
-Dump IL2CPP type layouts with the shared `../docs/tools/dump_types.ps1` (see root `CLAUDE.md`).
+Dump IL2CPP type layouts with `docs/tools/dump_types.ps1` (see root `CLAUDE.md`).
+
+## Publishing (github.com/jogalleciez/OKC-Ring)
+
+The public repo is a mirror of this folder: its root is `OKCRing/`, its history is this folder's history.
+Work and commit here, refresh the `docs/` copies from `../docs/` if they changed, then from the monorepo root:
+
+```bash
+git subtree push --prefix=OKCRing okc-ring main
+```
+
+Never commit to OKC-Ring directly; a commit there that is not in this repo makes the next push fail. Players get
+the built mod as a release zip (`Mods/PWS2LevelLoader.dll` + `Mods/PWS2LevelLoader/packs/{OKC_TransformerScreen,
+OKC_Streetcar}`, no spike packs), uploaded with `gh release create vX.Y.Z --repo jogalleciez/OKC-Ring`.
+Bump `Version` in the csproj, the `MelonInfo` version and each `pack.json` together.
 
 ## Testing = running the game
 
@@ -82,8 +97,8 @@ There is no unit-test suite. A change is verified by launching the game with the
 preferences set, letting it dump, and reading the dumps and `MelonLoader/Latest.log`. Preferences
 live in `<game>/UserData/MelonPreferences.cfg` under `[PWS2LevelLoader]`
 (`AutoDump`, `AutoRunCheat`, `AutoRunCheat2`, `AutoQuitAfterDumps`, `AutoSpike`, `RegisterPacks`,
-`EnableDebugKeys`); the README documents each one. Launch the game as the root `CLAUDE.md` describes. Dumps land in `<game>/UserData/PWS2LevelLoader/dumps/`; interactive keys are
-F5–F10 (see README).
+`EnableDebugKeys`); `docs/development.md` documents each one. Launch the game as the root `CLAUDE.md` describes. Dumps land in `<game>/UserData/PWS2LevelLoader/dumps/`; interactive keys are
+F5–F10 (see `docs/development.md`).
 
 Always restore `AutoDump=false`, `AutoRunCheat*=""`, `AutoSpike=""`, `AutoQuitAfterDumps=0` before
 handing the game back for normal play.

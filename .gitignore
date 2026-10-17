@@ -16,3 +16,24 @@ PWS2LevelKit/*.csproj
 PWS2LevelKit/*.sln
 PWS2LevelKit/*.slnx
 PWS2LevelKit/.vsconfig
+
+# Build output (packs and release zips; the built mod ships as a GitHub Release)
+dist/
+*.zip
+
+# A stray Unity project created when the Editor opened this folder instead of PWS2LevelKit/
+/Assets/
+/Library/
+/Logs/
+/Packages/
+/ProjectSettings/
+/UserSettings/
+
+# Editors, Blender backups, OS
+*.user
+.vs/
+*.blend1
+*.blend2
+__pycache__/
+Thumbs.db
+desktop.ini
